@@ -1,0 +1,2160 @@
+/*font kanit trên google font*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face {
+    font-family: 'Comic';
+    src: url("../assets/Azonix.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: 0.1em;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--value-thumb-scroll);
+    border-radius: 4px;
+}
+/*css body*/
+body {
+    /*Dark element*/
+    /*Transition */
+    --change-value: 1s;
+    /*Deg*/
+    --deg-value-1: 20deg;
+    --deg-value-2: 80deg;
+    --deg-value-3: 120deg;
+    --deg-value-4: 140deg; 
+    /*Percent*/
+    --per-value-1: 10%;
+    --per-value-2: 20%;
+    --per-value-3: 40%;
+    --per-value-4: 60%;
+    --per-value-5: 80%;
+    /*Background thanh cuộn*/
+    --value-thumb-scroll: #ffffff;
+    /*Màu background*/
+    --value-1-bg: #070b25;
+    --value-2-bg: #182159;
+    --value-3-bg: #ffffff;
+    --value-4-bg: #000000;
+    --value-5-bg: #00000061;
+    --value-6-bg: #799cfc89;
+    --value-7-bg: #ff74658d;
+    --value-8-bg: #725ef8;
+    --value-9-bg: #f5e95e;
+    --value-10-bg: #00000088;
+    --value-11-bg: #111243;
+    --value-12-bg: #5042d0;
+    --value-13-bg: #d04242;
+    --value-14-bg: #3030309e;
+    --value-15-bg: #f74545;
+    --value-16-bg: #6c5cff;
+    --value-17-bg: #482222;
+    --value-18-bg: #2a2556;
+    --value-19-bg: #be92ff72;
+    --value-20-bg: #7a6bfc;
+    --value-21-bg: #ffee03;
+    --value-22-bg: #f878a38b;
+    --value-23-bg: #9c314165;
+    --value-24-bg: #7369f563;
+    --value-25-bg: #61c2ffb3;
+    --value-26-bg: #b109418b;
+    --value-27-bg: #f5435d65;
+    --value-28-bg: #1d29688b;
+    --value-29-bg: #2f454a8d;
+    --value-30-bg: #b9c2ff;
+    --value-31-bg: #297c8fdd;
+    --value-32-bg: #4ee7ff;
+    --bg-value-color-1: linear-gradient(var(--deg-value-4), var(--value-1-bg) var(--per-value-3), var(--value-2-bg));
+    --bg-value-color-2: linear-gradient(var(--deg-value-2), var(--value-6-bg), var(--value-7-bg));
+    --bg-value-color-3: linear-gradient(var(--deg-value-2), var(--value-8-bg), var(--value-9-bg));
+    --bg-value-color-4: linear-gradient(var(--deg-value-1), #b86029,#5a8fde);
+    --bg-value-color-5: linear-gradient(var(--deg-value-1), var(--value-8-bg) var(--per-value-2), var(--value-9-bg));
+    --bg-value-color-6: linear-gradient(var(--deg-value-1), var(--value-15-bg) ,var(--value-16-bg));
+    --bg-value-color-7: linear-gradient(var(--deg-value-1), var(--value-17-bg), var(--value-18-bg));
+    --bg-value-color-8: linear-gradient(var(--deg-value-1), var(--value-19-bg) , var(--value-20-bg));
+    --bg-value-color-9: linear-gradient(var(--deg-value-3), var(--value-22-bg), var(--value-23-bg)  var(--per-value-3));
+    --bg-value-color-10: linear-gradient(var(--deg-value-3), var(--value-24-bg) var(--per-value-2), var(--value-25-bg));
+    --bg-value-color-11: linear-gradient(var(--deg-value-2), var(--value-26-bg), var(--value-27-bg));
+    --bg-value-color-12: linear-gradient(var(--deg-value-2), var(--value-28-bg), var(--value-29-bg) var(--per-value-2));
+    /*Màu nút */
+    --value-btn-1: #ffffff;
+    --value-btn-2: #aab8e8;
+    /*Màu văn bản*/
+    --value-text-1: #ffffff;
+    --value-text-2: #8a8383;
+    --value-text-3: #225c6a;
+    --value-text-5: #000000;
+    --value-text-6: #2ff5ff;
+    --value-text-7: #fae92d;
+    --value-text-8: #64a377;
+    --value-text-9: #aab8e8;
+    --value-text-10: #44bf2e;
+    --value-text-11: #b5337d;
+    --value-text-12: #7c1111;
+    --value-text-13: #d8d8d8d0;
+    /*Màu văn đổ bóng*/
+    --value-shadow-text-1: #ffffff1a;
+    --value-shadow-text-2: #e41414;
+    --value-shadow-text-3: #2f1aea;
+    --value-shadow-text-4: #fcfcfc;
+    transition: var(--change-value);
+    /*/////////////////////////////*/
+    
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: 'Kanit', monospace;
+}
+body.light {
+    /*Light element*/
+    /*Deg*/
+    --deg-value-1: 20deg;
+    --deg-value-2: 80deg;
+    --deg-value-3: 120deg;
+    --deg-value-4: 140deg; 
+     /*Percent*/
+    --per-value-1: 10%;
+    --per-value-2: 20%;
+    --per-value-3: 40%;
+    --per-value-4: 60%;
+    --per-value-5: 80%;
+    /*Background thanh cuộn*/
+    --value-thumb-scroll: #000000;
+    /*Màu background*/
+    --value-1-bg: #7e9ca7;
+    --value-2-bg: #8c8686;
+    --value-3-bg: #ffffff;
+    --value-4-bg: #F2F2F6CF;
+    --value-5-bg: #bcbcbc6b;
+    --value-6-bg: #0F255F89;
+    --value-7-bg: #4B1C178D;
+    --value-8-bg: #17039E;
+    --value-9-bg: #4d4704;
+    --value-10-bg: #E1E1E1BA;
+    --value-11-bg: #E8C29D;
+    --value-12-bg: #6DEF79;
+    --value-13-bg: #E98484;
+    --value-14-bg: #3030309e;
+    --value-15-bg: #FF0000;
+    --value-16-bg: #1900FF;
+    --value-17-bg: #FFC6C6;
+    --value-18-bg: #C8C2FF;
+    --value-19-bg: #6a88ff8b;
+    --value-20-bg: #7768FE;
+    --value-21-bg: #ffee03;
+    --value-22-bg: #42445A;
+    --value-23-bg: #2A0A0F65;
+    --value-24-bg: #FF93939C;
+    --value-25-bg: #BD37FFB3;
+    --value-26-bg: #4810228B;
+    --value-27-bg: #62454A65;
+    --value-28-bg: #1d29688b;
+    --value-29-bg: #2f454a8d;
+    --value-30-bg: #b9c2ff;
+    --value-31-bg: #297c8fdd;
+    --value-32-bg: #9d2489;
+    --value-33-bg: #163564;
+    --bg-value-color-1: linear-gradient(var(--deg-value-4), var(--value-1-bg) var(--per-value-3), var(--value-2-bg));
+    --bg-value-color-2: linear-gradient(var(--deg-value-2), var(--value-6-bg), var(--value-7-bg));
+    --bg-value-color-3: linear-gradient(var(--deg-value-2), var(--value-8-bg), var(--value-9-bg));
+    --bg-value-color-4: linear-gradient(var(--deg-value-1), var(--value-32-bg), var(--value-33-bg));
+    --bg-value-color-5: linear-gradient(var(--deg-value-1), var(--value-8-bg) var(--per-value-2), var(--value-9-bg));
+    --bg-value-color-6: linear-gradient(var(--deg-value-1), var(--value-15-bg) ,var(--value-16-bg));
+    --bg-value-color-7: linear-gradient(var(--deg-value-1), var(--value-17-bg), var(--value-18-bg));
+    --bg-value-color-8: linear-gradient(var(--deg-value-1), var(--value-19-bg) , var(--value-20-bg));
+    --bg-value-color-9: linear-gradient(var(--deg-value-3), var(--value-22-bg), var(--value-23-bg)  var(--per-value-3));
+    --bg-value-color-10: linear-gradient(var(--deg-value-3), var(--value-24-bg) var(--per-value-2), var(--value-25-bg));
+    --bg-value-color-11: linear-gradient(var(--deg-value-2), var(--value-26-bg), var(--value-27-bg));
+    --bg-value-color-12: linear-gradient(var(--deg-value-2), var(--value-28-bg), var(--value-29-bg) var(--per-value-2));
+    /*Màu nút */
+    --value-btn-1: #000000;
+    --value-btn-2: #3A4465;
+    /*Màu văn bản*/
+    --value-text-1: #000000;
+    --value-text-2: #000000;
+    --value-text-3: #17293f;
+    --value-text-5: #FFFFFF;
+    --value-text-6: #002123;
+    --value-text-7: #272E8D;
+    --value-text-8: #6d2958;
+    --value-text-9: #36426C;
+    --value-text-10: #204f17;
+    --value-text-11: #9C652C;
+    --value-text-12: #A94F4F;
+    --value-text-13: #252525fa;
+    /*Màu văn đổ bóng*/
+    --value-shadow-text-1: #3E1A1A24;
+    --value-shadow-text-2: #891c1c;
+    --value-shadow-text-3: #271c8d;
+    --value-shadow-text-4: #fcfcfc;
+    transition: var(--change-value);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+/*Background parallax efect*/
+section {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: var(--bg-value-color-1);
+  }
+section .text {
+    position: relative;
+    transform: skewY(345deg) translateY(-200px);
+    animation: animateColor 5s linear infinite;
+  }
+section .text h2 {
+    position: relative;
+    width: 100%;
+    font-size: 4.5vw;
+    line-height: 1em;
+    color: var(--value-text-2);
+    pointer-events: none;
+    white-space: nowrap;
+    text-shadow: calc(var(--x)) 100px 0 var(--value-shadow-text-1);
+    transform: translateX(calc(0% - var(--x) * var(--i)));
+  }
+section .text h2 > span {
+    color: var(--value-text-3);
+    margin: 0 10px;
+  }
+section .text h2 > span:nth-child(even) {
+    color: transparent;
+    -webkit-text-stroke: 0.005px var(--value-text-2);
+  }
+section text h2 > span.icon-style:nth-child(even){
+    color: transparent;
+    -webkit-text-stroke: 0.005px var(--value-text-2);
+}
+@keyframes animateColor {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+
+/*////////////////////////////////////////////////////////////////*/
+ /*nút bắt đầu làm trách nghiệm*/
+.btn {
+    position: relative;
+    top: 5px;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    padding: 6px 18px 1px 18px;
+    font-weight: 500;
+    border-radius: 0.5px;
+    border: 1px solid var(--value-btn-1);
+    background-color: var(--value-4-bg);
+    cursor: pointer;
+}
+.style-btn{
+    color: var(--value-text-5);
+    margin: 10px 10px 10px 10px;
+    z-index: 10;
+}
+.style-btn::after{
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    height: 95%;
+    background: var(--bg-value-color-2);
+    transform: skewY(2deg);
+    z-index: -1;
+}
+/*khung chính trang web*/
+.voder {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.voder .custom-b{
+    position: absolute;
+    width: min(100%  - 100px);
+    height: auto;
+    margin: 40px 5px 0px 5px;
+    padding:  10px 10px 10px 10px;
+    border-radius: 5px;
+    background: var(--value-5-bg);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    animation: botFadein 0.6s ease;
+}
+@keyframes botFadein {
+    0%{
+        transform: translateY(80px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes leftFacein {
+    0%{
+        transform: translateX(80px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.custom-b::before,
+.custom-b::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.custom-b.hide{
+    display: none;
+}
+.voder .custom-a{
+    position: absolute;
+    width: min(100%  - 100px);
+    height: auto;
+    margin: 40px 5px 0px 5px;
+    padding:  10px 10px 10px 10px;
+    border-radius: 5px;
+    background: var(--value-5-bg);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    animation: botFadein 0.8s ease;
+}
+.custom-a:has(.nonan, .wroan, .coran)::before,
+.custom-a:has(.nonan, .wroan, .coran)::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.custom-a:has(.nonan, .wroan, .coran).hide{
+    display: none;
+}
+.voder .custom-c{
+    position: relative;
+    width: min(100%  - 10rem);
+    height: auto;
+    margin: 0 auto;
+    padding:  10px 10px 10px 10px;
+    border-radius: 5px;
+    background: var(--value-5-bg);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    animation: botFadein 0.4s ease;
+}
+.custom-c:has(h3, p, .none-pic-box, .none-pic-1)::before,
+.custom-c:has(h3, p, .none-pic-box, .none-pic-1)::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.custom-c:has(h3, p, .none-pic-box, .none-pic-1).hide{
+    display: none;
+}
+/*Hộp thông số*/
+.voder .status-box {
+    position: fixed;
+    top: 0.1px;
+    width: 300px;
+    height: auto;
+    padding:  2px 5px 2px 5px;
+    border-radius: 3px;
+    font-size: 0.5rem;
+    color: var(--value-text-1);
+    background: var(--value-5-bg);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    animation: leftFacein 0.6s ease;
+    z-index: 3;
+}
+.voder .status-box .chosing-que-box.text-showing {
+    margin: 0px 2px 0px 2px;
+    word-spacing: 2px;
+}
+.voder .status-box .chosing-que-box{
+    color: var(--value-text-6);
+    font-style: italic;
+}
+.voder .status-box .time-line{
+    position: relative;
+    text-align: center;
+    right: 0;
+    padding: 0.5px 5px 0.5px 5px;
+    border-radius: 1px;
+    border: 0.4px solid var(--value-btn-1);
+    font-size: 0.55rem;
+    background: var(--value-5-bg);
+}
+/*css cho mục đầu bắt đầu*/
+.voder .home-box{
+    position: absolute;
+    top: 70px;
+    width: 600px;
+    height: auto;
+    line-height: 50px;
+    padding-top: 20px;
+    margin-top: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    z-index: 3;
+}
+.voder .home-box h1 {
+    position: relative;
+    background: var(--bg-value-color-3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+/*Hộp lựa chọn trách nghiệm*/
+.voder .home-box .sco-ques-box{
+    position: relative;
+    width: 400px;
+    height: 170px;
+    background: var(--value-10-bg);
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow-x: hidden; 
+    padding:0px 5px 0px 5px;
+}
+.voder .home-box .sco-ques-box .chosing-ques-box{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.voder .home-box .sco-ques-box .chosing-ques-box .con-que-box {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0px 2px 2px 5px;
+    border-bottom: 0.1px solid var(--value-btn-1);
+    text-align: center;
+}
+.voder .home-box .sco-ques-box .chosing-ques-box .con-que-box.inline-group{
+    font-size: 1.2rem;
+    color: var(--value-text-1);
+    letter-spacing: 2px;
+    font-weight: 550;
+    text-align: left;
+
+}
+.voder .home-box .sco-ques-box .chosing-ques-box .con-que-box input[type="radio"]{
+    display: none;
+}
+.voder .home-box .sco-ques-box .chosing-ques-box .con-que-box label{
+    position: relative;
+    color: var(--value-text-7);
+    font-family: monospace;
+    font-size: 1rem; 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    cursor: pointer;
+}
+.voder .home-box .sco-ques-box .chosing-ques-box .con-que-box label::before{
+    content: "";
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--value-btn-2);
+    border-radius: 2px;
+    margin: 0px 10px 0px 10px;
+}
+.voder .home-box .sco-ques-box .chosing-ques-box .con-que-box input[type="radio"]:checked + label{
+    background-color: var(--value-11-bg);
+    color: var(--value-text-6);
+}
+.voder .home-box .sco-ques-box .chosing-ques-box .con-que-box input[type="radio"]:checked + label::before{
+    width: 8px;
+    height: 8px;
+    border: 5px solid var(--value-btn-2);
+    background-color: var(--value-11-bg);
+    animation: closing 0.15s ease-out forwards;
+}
+@keyframes closing{
+  0% {
+    width: 0px;
+    height: 0px;
+    border: 9px solid var(--value-btn-2);
+    transform: translateY(20%);
+  }
+  100%{
+    width: 8px;
+    height: 8px;
+    border: 5px solid var(--value-btn-2);
+    background-color: var(--value-11-bg);
+    transform: translateY(0%);
+  }
+}
+ /*hộp câu hỏi*/
+.voder .quiz-box {
+    position: absolute;
+    top: 40px;
+    color: var(--value-text-7);
+}
+.quiz-box .que-numb,
+.quiz-box .que-text,
+.quiz-box .option-que,
+.quiz-box  .nex-que-btn{
+    width: 100%;
+    float: center;
+}
+.voder .quiz-box .que-numb {
+    position: relative;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 90%;
+    font-size: 1.3rem;
+    /* color: var(--value-text-7); */
+    background: var(--bg-value-color-3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1.5px solid var(--value-text-1);
+}
+.voder .quiz-box .option-que{
+    position: relative;
+    padding: 0px 20px 0px 20px;
+    font-size: 1rem;
+    color: var(--value-text-7);
+}
+.voder .quiz-box .option-que .option .quespicde{
+  width: 20%;
+  height: 20%;
+  margin: 0 auto;
+}
+.voder .quiz-box .option-que .option{
+    padding: 8px 10px 8px 10px;
+    margin: 12px 12px 12px 12px;
+    border-radius: 5px;
+    background: var(--value-4-bg);
+    cursor: pointer;
+    text-transform: normal;
+    opacity: 0;
+    animation: loadcount 0.3s ease-in forwards;
+    position: relative;
+    overflow: hidden;
+}
+.voder .quiz-box .option-que .option.alredy-done{
+    pointer-events: none;
+}
+/*css cho đáp án đúng / sai*/
+.voder .quiz-box .option-que .option.correct::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--value-12-bg);
+    z-index: -1;
+    animation: sliLeft 0.3s ease forwards;
+}
+.voder .quiz-box .option-que .option.wrong::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--value-13-bg);
+    z-index: -1;
+    animation: sliTop 0.15s ease forwards;
+}
+
+/*hiệu ứng cho thanh đáp án*/
+@keyframes loadcount{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/*hiệu ứng cho thanh đáp áp đúng khi nhấp*/
+@keyframes sliLeft{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes sliTop{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+
+.voder .quiz-box .que-text{
+    position: relative;
+    width: min(100%  - 12rem);
+    top: 5px;
+    left: 0px;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0px 20px 0px 0px;
+    font-size: 1.2rem;
+}
+.voder .quiz-box .que-text .quespic{
+  width: 20%;
+  height: 20%;
+  margin-left: 2px;
+}
+.voder .quiz-box .nex-que-btn{
+    position: relative;
+    margin-left: 2rem;
+}
+
+/*Hộp hiển thị file chưa tạo hoặc lỗi*/
+.voder .none-file-box {
+    position: relative;
+    width: min(100% - 65%);
+    height: auto;
+    top: 40px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Kanit', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: botFadein 0.4s ease;
+}
+.voder .none-file-box h3 {
+    position: relative;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0 auto;
+    font-style: italic;
+    background: var(--bg-value-color-4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.voder .none-file-box p{
+    font-size: 0.7rem;
+    color: var(--value-text-8);
+}
+.voder .none-file-box .none-pic-box{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.voder .none-file-box .none-pic-box .none-pic-1 {
+    width: 60%;
+    height: 60%;
+    margin: 2px 10px 10px 2px;
+}
+/*hộp hiện kết quả cuối*/
+.voder .total-box{
+    position: absolute;
+    top: 90px;
+    width: min(100% - 50%);
+    height: 250px;
+    margin: 0 auto;
+    padding: 0px 0px 40px 0px;
+    font-size: 1.2rem;
+    color: var(--value-text-9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 15;
+}    
+.voder .total-box h3{
+    position: relative;
+    font-size: 1.6rem;
+    margin: 5px 10px 5px 10px;
+    border-bottom: 1px solid var(--value-btn-1);
+    display: inline-block;
+}
+.voder .total-box span{
+    position: relative;
+    top: 0px;
+    padding: 0px 20px 0px 0px;
+    line-height:  30px;
+    font-size: 1.7rem;
+    margin-right: 10px;
+}
+.voder .total-box .re-btn-box{
+    display: flex;
+    justify-content: space-around;
+}
+.voder .total-box .coran{
+    color: var(--value-text-10);
+}
+.voder .total-box .nonan{
+    color: var(--value-text-11);
+}
+.voder .total-box .wroan{
+    color: var(--value-text-12);
+}
+.voder .total-box .final-result{
+    background: var(--bg-value-color-5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*Tên tác giả*/
+.footer-name{
+    position: fixed;
+    width: 100%;
+    bottom: 0.1px;
+    font-size: 0.9rem;
+    color: var(--value-text-1);
+    padding: 1px 0px 0px 5px;
+    background: var(--value-5-bg);
+    -webkit-backdrop-filter: blur(4x);
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    animation: leftFacein 0.6s ease;
+}
+.footer-name a{
+    background: var(--bg-value-color-6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-weight: 550;
+    font-family: 'Comic';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    animation: lightbug 4s ease infinite;
+}
+.footer-name a div{
+    width: 15px;
+    height: 15px;
+    background: url('https://avatars.githubusercontent.com/u/89434463?s=96&v=4');
+    background-size: cover;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+.copyright-text{
+    font-size: 0.5rem;
+    color: var(--value-text-13);
+    margin: 3px 0px 0px 3px;
+}
+@keyframes lightbug{
+    0%,20%,50.1%,60%,65%,1%,80%,90.1%,92%{
+        background: var(--bg-value-color-7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: none;
+    }
+    20.1%,50%,60.1%,65%,80.1%,92.1%,100%{
+        background: var(--bg-value-color-8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0 0 5px var(--value-shadow-text-2),
+        0 0 10px var(--value-shadow-text-3),
+        0 0 15px var(--value-shadow-text-2),
+        0 0 20px var(--value-shadow-text-3),
+        0 0 25px var(--value-shadow-text-2);
+    }
+}
+/*Hộp chỉnh các thông số*/
+/* .setting-contain {
+    position: fixed;
+    left: 20px;
+    bottom: 30px;
+    width: min(100% - 94%);
+    height: auto;
+    z-index: 5;
+}
+.setting-contain .icon-setting {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 50%;
+    background-color: var(--value-19-bg);
+}
+.setting-contain .icon-setting .icon-svg-setting{
+    position: relative;
+}
+.setting-contain .setting-option {
+    position: absolute;
+    left: -10px;
+    bottom: 70px;
+    width: 300px;
+    height: 200px;
+    transform: skewY(-15deg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+.setting-contain .setting-option .vfx-sound{
+    display: flex;
+    height: 35px;
+    background: var(--bg-value-color-9);
+    -webkit-backdrop-filter: blur(5x);
+    backdrop-filter: blur(5px);
+    border-radius: 8px 8px 8px 8px;
+    padding: 3px 0px 3px 8px;
+    margin: 8px 0px 8px 0px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.setting-contain .setting-option .vfx-sound label{
+    position: absolute;
+    color: var(--value-text-5);
+    left: 10px;
+    z-index: 10;
+}
+.setting-contain .setting-option .vfx-sound .volume_slider{
+    width: 250px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 15px;
+    margin: 0px 0px 0px 10px;
+    background:  none;
+    overflow: hidden;
+}
+.setting-contain .setting-option .vfx-sound .volume_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 0px;
+    height: 15px;
+    cursor: pointer;
+    z-index: 6;
+}
+.setting-contain .setting-option .vfx-sound #progressbar {
+    width: 70%;
+    height: 45px;
+    background: var(--bg-value-color-10);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    border-radius: 0px 0px 0px 0px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}   
+.setting-contain .setting-option #fullscreen{
+    position: relative;
+    padding: 0px 10px 4px 10px;
+    margin: 8px 0px 8px 0px;
+    background: var(--bg-value-color-11);
+    -webkit-backdrop-filter: blur(10x);
+    backdrop-filter: blur(10px);
+    border-radius: 5px 8px 8px 5px;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+    align-items: center;
+}
+.setting-contain .setting-option #fullscreen .full-text{
+    position: relative;
+    text-decoration: none;
+    margin: 0 auto;
+    font-family: 'Comic';
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+}
+.setting-contain .setting-option #fullscreen:has(a, .full-text):hover{
+    background: var(--bg-value-color-11);
+    -webkit-backdrop-filter: blur(2x);
+    backdrop-filter: blur(2px);
+    letter-spacing: 0.5em;
+    color: var(--value-text-1);
+    font-weight: 500;
+    text-shadow: 0 0 5px var(--value-shadow-text-4),
+    0 0 10px var(--value-shadow-text-4),
+    0 0 20px var(--value-shadow-text-4),
+    0 0 30px var(--value-shadow-text-4);
+    transition: 0.5s;
+    animation: hopp 0.7s ease;
+}
+@keyframes hopp {
+    0%{
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+.setting-contain .setting-option .background-focus-box {
+    position: relative;
+    padding: 4px 8px 4px 8px;
+    margin: 8px 0px 8px 0px;
+    background: var(--bg-value-color-11);
+    -webkit-backdrop-filter: blur(10x);
+    backdrop-filter: blur(10px);
+    border-radius: 5px 8px 8px 5px;
+}
+
+.setting-contain .setting-option .box-ui-contain {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, #1d29688b, #2f454a8d 30%);
+    -webkit-backdrop-filter: blur(10x);
+    backdrop-filter: blur(10px);
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px 8px 8px 5px;
+    margin: 8px 0px 8px 0px;
+}
+.setting-contain .setting-option .box-ui-contain .toggle_switch{
+    width: 100px;
+    height: 45px;
+    position: relative;
+}
+  
+.setting-contain .setting-option .box-ui-contain input[type="checkbox"].switch{
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    outline: 0;
+    z-index: 1;
+}
+  
+.setting-contain .setting-option .box-ui-contain svg.checkbox .outer-ring{
+    stroke-dasharray: 375;
+    stroke-dashoffset: 375;
+    -webkit-animation: resetRing .35s ease-in-out forwards;
+            animation: resetRing .35s ease-in-out forwards;
+}
+  
+.setting-contain .setting-option .box-ui-contain input[type="checkbox"].switch:checked + svg.checkbox .outer-ring{
+    -webkit-animation: animateRing .35s ease-in-out forwards;
+            animation: animateRing .35s ease-in-out forwards;
+}
+  
+.setting-contain .setting-option .box-ui-contain input[type="checkbox"].switch:checked + svg.checkbox .is_checked{
+    opacity: 1;
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+  }
+  
+.setting-contain .setting-option .box-ui-contain input[type="checkbox"].switch:checked + svg.checkbox .is_unchecked{
+    opacity: 0;
+    -webkit-transform: translateX(-200%) rotate(180deg);
+            transform: translateX(-200%) rotate(180deg);
+  }
+  
+  
+.setting-contain .setting-option .box-ui-contain svg.checkbox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+.setting-contain .setting-option .box-ui-contain svg.checkbox .is_checked{
+    opacity: 0;
+    fill: var(--value-21-bg);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: translateX(200%) rotate(45deg);
+            transform: translateX(200%) rotate(45deg);
+    -webkit-transition: all .35s;
+    transition: all .35s;
+}
+  
+.setting-contain .setting-option .box-ui-contain svg.checkbox .is_unchecked{
+    opacity: 1;
+    fill: var(--value-30-bg);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    -webkit-transition: all .35s;
+    transition: all .35s;
+}
+  
+@-webkit-keyframes animateRing{
+    to{
+      stroke-dashoffset: 0;
+      stroke: var(--value-21-bg);
+    }
+  }
+  
+  @keyframes animateRing{
+    to{
+      stroke-dashoffset: 0;
+      stroke: var(--value-21-bg);
+    }
+  }
+  
+  @-webkit-keyframes resetRing{
+    to{
+      stroke-dashoffset: 0;
+      stroke: var(--value-31-bg);
+    }
+  }
+  
+  @keyframes resetRing{
+    to{
+      stroke-dashoffset: 0;
+      stroke: var(--value-31-bg);
+    }
+  }
+.setting-option.hide{
+      display: none;
+  }
+.vfx-sound:has(label, #progressbar, .volume_slider).hide{
+    display: none;
+}
+#fullscreen:has(.full-text).hide{
+    display: none;
+}
+.toggle_switch:has(.switch, .outer-ring, .is_checked, .is_unchecked).hide{
+    display: none;
+}
+.background-focus-box.hide{
+    display: none;
+}
+.vfx-sound:has(label, #progressbar, .volume_slider).effect{
+    animation: showingSetting 0.7s ease-in forwards;
+}
+#fullscreen:has(.full-text).effect{
+    animation: showingSetting 0.7s ease-in forwards;
+}
+.toggle_switch:has(.switch, .outer-ring, .is_checked, .is_unchecked).effect{
+    animation: showingSetting 0.7s ease-in forwards;
+}
+.background-focus-box.effect{
+    animation: showingSetting 0.7s ease-in forwards;
+}
+@keyframes showingSetting{
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+.vfx-sound:has(label, #progressbar, .volume_slider).endef{
+    animation: HidingSetting 0.7s ease-in forwards;
+}
+#fullscreen:has(.full-text).endef{
+    animation: HidingSetting 0.7s ease-in forwards;
+}
+.toggle_switch:has(.switch, .outer-ring, .is_checked, .is_unchecked).endef{
+    animation: HidingSetting 0.7s ease-in forwards;
+}
+.background-focus-box.endef{
+    animation: HidingSetting 0.7s ease-in forwards;
+}
+@keyframes HidingSetting{
+    0%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+.background-focusing{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(187, 138, 138, 0.315);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    z-index: 4;
+    display: block;
+    transition: 0.7s;
+}
+.background-focusing.hide{
+    display: none;
+} */
+
+.ui-option {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: auto;
+    height: auto;
+    z-index: 5;
+}
+
+.ui-option .box-ui-contain {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-value-color-12);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px 8px 8px 5px;
+    margin: 8px 0px 8px 0px;
+}
+.ui-option .box-ui-contain .toggle_switch{
+    width: 80px;
+    height: 35px;
+    position: relative;
+}
+  
+.ui-option .box-ui-contain input[type="checkbox"].switch{
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    outline: 0;
+    z-index: 1;
+}
+  
+.ui-option .box-ui-contain svg.checkbox .outer-ring{
+    stroke-dasharray: 375;
+    stroke-dashoffset: 375;
+    -webkit-animation: resetRing .35s ease-in-out forwards;
+            animation: resetRing .35s ease-in-out forwards;
+}
+  
+.ui-option .box-ui-contain input[type="checkbox"].switch:checked + svg.checkbox .outer-ring{
+    -webkit-animation: animateRing .35s ease-in-out forwards;
+            animation: animateRing .35s ease-in-out forwards;
+}
+  
+.ui-option .box-ui-contain input[type="checkbox"].switch:checked + svg.checkbox .is_checked{
+    opacity: 1;
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+  }
+  
+.ui-option .box-ui-contain input[type="checkbox"].switch:checked + svg.checkbox .is_unchecked{
+    opacity: 0;
+    -webkit-transform: translateX(-200%) rotate(180deg);
+            transform: translateX(-200%) rotate(180deg);
+  }
+  
+  
+.ui-option .box-ui-contain svg.checkbox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+.ui-option .box-ui-contain svg.checkbox .is_checked{
+    opacity: 0;
+    fill: var(--value-21-bg);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: translateX(200%) rotate(45deg);
+            transform: translateX(200%) rotate(45deg);
+    -webkit-transition: all .35s;
+    transition: all .35s;
+}
+  
+.ui-option .box-ui-contain svg.checkbox .is_unchecked{
+    opacity: 1;
+    fill: var(--value-30-bg);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    -webkit-transition: all .35s;
+    transition: all .35s;
+}
+  
+@-webkit-keyframes animateRing{
+    to{
+      stroke-dashoffset: 0;
+      stroke: var(--value-21-bg);
+    }
+  }
+  
+  @keyframes animateRing{
+    to{
+      stroke-dashoffset: 0;
+      stroke: var(--value-21-bg);
+    }
+  }
+  
+  @-webkit-keyframes resetRing{
+    to{
+      stroke-dashoffset: 0;
+      stroke: var(--value-31-bg);
+    }
+  }
+  
+  @keyframes resetRing{
+    to{
+      stroke-dashoffset: 0;
+      stroke: var(--value-31-bg);
+    }
+  }
+
+.reload-btn{
+    position: absolute;
+    bottom: 27px;
+    left: 120px;
+    width: 40px;
+    height: 40px;
+    padding: 6px 8px 0px 6px;
+    background: var(--bg-value-color-12);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 4;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*00----------------00----0000000000000-----000-0000----------000--------00000000--*/
+/*00-00----------00-00----0000000000000-----000-----00--------000------000-----000-*/
+/*00----00----00----00----000---------------000--------00-------------000-------000*/
+/*00-------00-------00----0000000000000-----000---------00----000-----000-------000*/
+/*00----------------00----0000000000000-----000---------00----000-----0000000000000*/
+/*00----------------00----000---------------000--------00-----000-----000-------000*/
+/*00----------------00----0000000000000-----000------00-------000-----000-------000*/
+/*00----------------00----0000000000000-----000-0000----------000-----000-------000*/
+/*media cho từng thiết bị*/
+@media only screen and (min-width: 200px) and (max-width: 800px){
+    ::-webkit-scrollbar {
+        width: 0.1em;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: var(--value-thumb-scroll);
+        border-radius: 2px;
+    }
+    /*css body*/
+    body {
+        margin: 0;
+        font-size: 1rem;
+        font-family: 'Kanit', monospace;
+    }
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        outline: none;
+    }
+    /*Background parallax efect*/
+    section {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        background: var(--bg-value-color-1);
+    }
+    section .text {
+        position: relative;
+        transform: skewY(345deg) translateY(-200px);
+        animation: animateColor 4s linear infinite;
+    }
+    section .text h2 {
+        position: relative;
+        width: 100%;
+        font-size: 10vw;
+        line-height: 1em;
+        color: var(--value-text-2);
+        pointer-events: none;
+        white-space: nowrap;
+        text-shadow: calc(var(--x)) 80px 0 var(--value-shadow-text-1);
+        transform: translateX(calc(-20% - var(--x) * var(--i)));
+    }
+    section .text h2 > span {
+        color: var(--value-text-3);
+        margin: 0 5px;
+    }
+    
+    section .text h2 > span:nth-child(even) {
+        color: transparent;
+        -webkit-text-stroke: 0.5px var(--value-text-2);
+    }
+    section text h2 > span.icon-style:nth-child(even){
+        color: transparent;
+        -webkit-text-stroke: 0.005px var(--value-text-2);
+    }
+    /*////////////////////////////////////////////////////////////////*/
+    /*nút bắt đầu làm trách nghiệm*/
+    .btn {
+        position: relative;
+        top: 5px;
+        margin: 0 auto;
+        font-size: 1rem;
+        padding: 4px 14px 1px 14px;
+        font-weight: 500;
+        border-radius: 0.5px;
+        border: 1px solid var(--value-btn-1);
+        background-color: var(--value-4-bg);
+        cursor: pointer;
+    }
+    .style-btn{
+        color: var(--value-text-5);
+        margin: 6px 6px 6px 6px;
+        z-index: 10;
+    }
+    .style-btn::after{
+        content: '';
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 100%;
+        height: 95%;
+        background: var(--bg-value-color-2);
+        transform: skewY(2deg);
+        z-index: -1;
+    }
+
+
+    /*khung chính trang web*/
+    .voder {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .voder .custom-b{
+        position: absolute;
+        width: min(100%  - 1rem);
+        height: auto;
+        margin: 20px 2,5px 0px 2,5px;
+        padding:  5px 5px 5px 5px;
+        border-radius: 5px;
+        background: var(--value-5-bg);
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
+        animation: botFadein 0.6s ease;
+    }
+    @keyframes botFadein {
+        0%{
+            transform: translateY(80px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    @keyframes leftFacein {
+        0%{
+            transform: translateX(80px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    .custom-b::before,
+    .custom-b::after{
+        content: '';
+        clear: both;
+        display: table;
+    }
+    .custom-b.hide{
+        display: none;
+    }
+    .voder .custom-a{
+        position: absolute;
+        width: min(100%  - 1rem);
+        height: auto;
+        margin: 20px 2,5px 0px 2,5px;
+        padding:  5px 5px 5px 5px;
+        border-radius: 2,5px;
+        background: var(--value-5-bg);
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
+        animation: botFadein 0.6s ease;
+    }
+    .custom-a:has(.nonan, .wroan, .coran)::before,
+    .custom-a:has(.nonan, .wroan, .coran)::after{
+        content: '';
+        clear: both;
+        display: table;
+    }
+    .custom-a:has(.nonan, .wroan, .coran).hide{
+        display: none;
+    }
+    .voder .custom-c{
+        position: relative;
+        width: min(100%  - 12rem);
+        height: auto;
+        margin: 20px 2,5px 0px 2,5px;
+        padding:  5px 5px 5px 5px;
+        border-radius: 5px;
+        background: var(--value-5-bg);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        animation: botFadein 0.4s ease;
+    }
+    .custom-c::before,
+    .custom-c::after{
+        content: '';
+        clear: both;
+        display: table;
+    }
+    .custom-c.hide{
+        display: none;
+    }
+    /*Hộp thông số*/
+    .voder .status-box {
+        position: fixed;
+        top: 0.1px;
+        width: 80%;
+        height: auto;
+        padding:  2px 5px 2px 5px;
+        border-radius: 3px;
+        font-size: 0.5rem;
+        color: var(--value-text-1);
+        background: var(--value-5-bg);
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        animation: leftFacein 0.5s ease;
+        z-index: 3;
+    }
+    .voder .status-box .chosing-que-box.text-showing {
+        margin: 0px 2px 0px 2px;
+        word-spacing: 2px;
+    }
+    .voder .status-box .chosing-que-box{
+        color: var(--value-text-6);
+        font-style: italic;
+    }
+    .voder .status-box .time-line{
+        position: relative;
+        text-align: center;
+        right: 0;
+        padding: 0.2px 4px 0.2px 4px;
+        border-radius: 0.5px;
+        border: 0.4px solid var(--value-btn-1);
+        font-size: 0.55rem;
+        background: var(--value-5-bg);
+    }
+    /*css cho mục đầu bắt đầu*/
+    .voder .home-box{
+        position: relative;
+        top: 60px;
+        width: 95%;
+        height: auto;
+        line-height: 50px;
+        padding-top: 20px;
+        margin-top: 0 auto;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        z-index: 3;
+    }
+    .voder .home-box h1 {
+        position: relative;
+        background: var(--bg-value-color-3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 300;
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+    }
+    /*Hộp lựa chọn trách nghiệm*/
+    .voder .home-box .sco-ques-box{
+        position: relative;
+        width: 98%;
+        height: 170px;
+        background: var(--value-10-bg);
+        margin: 0 auto;
+        border-radius: 4px;
+        overflow-x: hidden; 
+        padding:0px 5px 0px 5px;
+    }
+    .voder .home-box .sco-ques-box .chosing-ques-box{
+        position: relative;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .voder .home-box .sco-ques-box .chosing-ques-box .con-que-box {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: 0px 2px 2px 5px;
+        border-bottom: 0.1px solid var(--value-btn-1);
+        text-align: center;
+    }
+    .voder .home-box .sco-ques-box .chosing-ques-box .con-que-box.inline-group{
+        font-size: 1rem;
+        color: var(--value-text-1);
+        letter-spacing: 2px;
+        font-weight: 550;
+        text-align: left;
+    
+    }
+    .voder .home-box .sco-ques-box .chosing-ques-box .con-que-box input[type="radio"]{
+        display: none;
+    }
+    .voder .home-box .sco-ques-box .chosing-ques-box .con-que-box label{
+        position: relative;
+        color: var(--value-text-7);
+        font-family: monospace;
+        font-size: 0.8rem; 
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        cursor: pointer;
+    }
+    .voder .home-box .sco-ques-box .chosing-ques-box .con-que-box label::before{
+        content: "";
+        width: 10px;
+        height: 10px;
+        border: 1.5px solid var(--value-btn-2);
+        border-radius: 1.5px;
+        margin: 0px 7px 0px 7px;
+    }
+    .voder .home-box .sco-ques-box .chosing-ques-box .con-que-box input[type="radio"]:checked + label{
+        background-color: var(--value-11-bg);
+        color: var(--value-text-6);
+    }
+    .voder .home-box .sco-ques-box .chosing-ques-box .con-que-box input[type="radio"]:checked + label::before{
+        width: 5px;
+        height: 5px;
+        border: 4px solid var(--value-btn-2);
+        background-color: var(--value-11-bg);
+        animation: closing 0.1s ease-out forwards;
+    }
+    @keyframes closing{
+      0% {
+        width: 0px;
+        height: 0px;
+        border: 6px solid var(--value-btn-2);
+        transform: translateY(20%);
+      }
+      100%{
+        width: 5px;
+        height: 5px;
+        border: 4px solid var(--value-btn-2);
+        background-color: var(--value-11-bg);
+        transform: translateY(0%);
+      }
+    }
+     /*hộp câu hỏi*/
+    .voder .quiz-box {
+        color: var(--value-text-7);
+    }
+    .quiz-box .que-numb,
+    .quiz-box .que-text,
+    .quiz-box .option-que,
+    .quiz-box  .nex-que-btn{
+        width: 100%;
+        float: center;
+    }
+    .voder .quiz-box .que-numb {
+        position: relative;
+        text-align: left;
+        margin: 0 auto;
+        max-width: 94%;
+        font-size: 1.3rem;
+        /* color: var(--value-text-7); */
+        background: var(--bg-value-color-3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-bottom: 1px solid var(--value-btn-1);
+    }
+    .voder .quiz-box .option-que{
+        position: relative;
+        padding: 0px 11px 0px 11px;
+        font-size: 1.2rem;
+        color: var(--value-text-7);
+        list-style-type: upper-alpha;
+    }
+    .voder .quiz-box .option-que .option .quespicde{
+      width: 20%;
+      height: 20%;
+      margin: 0 auto;
+    }
+    .voder .quiz-box .option-que .option{
+        padding: 4px 5px 4px 5px;
+        margin: 10px 6px 10px 6px;
+        border-radius: 3px;
+        background: var(--value-4-bg);
+        cursor: pointer;
+        text-transform: normal;
+        opacity: 0;
+        animation: loadcount 0.3s ease-in forwards;
+        position: relative;
+        overflow: hidden;
+    }
+    .voder .quiz-box .option-que .option.alredy-done{
+        pointer-events: none;
+    }
+    /*css cho đáp án đúng / sai*/
+    .voder .quiz-box .option-que .option.correct::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: var(--value-12-bg);
+        z-index: -1;
+        animation: sliLeft 0.25s ease forwards;
+    }
+    .voder .quiz-box .option-que .option.wrong::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: var(--value-13-bg);
+        z-index: -1;
+        animation: sliTop 0.1s ease forwards;
+    }
+    
+    /*hiệu ứng cho thanh đáp án*/
+    @keyframes loadcount{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    /*hiệu ứng cho thanh đáp áp đúng khi nhấp*/
+    @keyframes sliLeft{
+        0%{
+            transform: translateX(-100%);
+        }
+        100%{
+            transform: translateX(0%);
+        }
+    }
+    @keyframes sliTop{
+        0%{
+            transform: translateY(-100%);
+        }
+        100%{
+            transform: translateY(0%);
+        }
+    }
+    .voder .quiz-box .que-text{
+        position: relative;
+        width: min(100%  - 1rem);
+        top: 3px;
+        left: 0px;
+        background-size: cover;
+        margin: 0 auto;
+        padding: 0px 10px 0px 0px;
+        font-size: 1.3rem;
+    }
+    .voder .quiz-box .que-text .quespic{
+      width: 20%;
+      height: 20%;
+      margin-left: 1.5px;
+    }
+    .voder .quiz-box .nex-que-btn{
+        position: relative;
+        margin-left: 1.5rem;
+    }
+    
+    /*Hộp hiển thị file chưa tạo hoặc lỗi*/
+    .voder .none-file-box {
+        position: relative;
+        width: min(100% - 8rem);
+        height: auto;
+        top: 40px;
+        margin: 0 auto;
+        padding: 20px 20px 20px 20px;
+        font-family: 'Kanit', monospace;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .voder .none-file-box h3 {
+        position: relative;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: 0 auto;
+        font-style: italic;
+        background: var(--bg-value-color-4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .voder .none-file-box p{
+        font-size: 0.7rem;
+        color: var(--value-text-8);
+    }
+    .voder .none-file-box .none-pic-box{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .voder .none-file-box .none-pic-box .none-pic-1 {
+        width: 60%;
+        height: 60%;
+        margin: 2px 10px 10px 2px;
+    }
+    /*hộp hiện kết quả cuối*/
+    .voder .total-box{
+        position: relative;
+        width: min(100% - 1rem);
+        height: 200px;
+        margin: 0 auto;
+        bottom: -70px;
+        padding: 0px 0px 15px 0px;
+        font-size: 0.8rem;
+        color: var(--value-text-9);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        z-index: 15;
+    }    
+    .voder .total-box h3{
+        width: min(100% - 3rem);
+        margin: 0 auto;
+        position: relative;
+        font-size: 1rem;
+        margin: 0px 7px 4px 7px;
+        border-right: none;
+        border-bottom: 0.6px solid #27409c;
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .voder .total-box span{
+        position: relative;
+        top: 0px;
+        padding: 0px 10px 0px 0px;
+        line-height:  30px;
+        font-size: 1.3rem;
+        margin-right: 5px;
+    }
+    .voder .total-box .re-btn-box{
+        display: flex;
+        justify-content: space-around;
+    }
+    .voder .total-box .coran{
+        color: var(--value-text-10);
+    }
+    .voder .total-box .nonan{
+        color: var(--value-text-11);
+    }
+    .voder .total-box .wroan{
+        color: var(--value-text-12);
+    }
+    .voder .total-box .final-result{
+        background: var(--bg-value-color-5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    } 
+    /*Tên tác giả*/
+    .footer-name{
+        position: fixed;
+        width: 100%;
+        bottom: 0.1px;
+        font-size: 0.6rem;
+        color: var(--value-text-1);
+        padding: 1px 0px 0px 2px;
+        background: var(--value-5-bg);
+        -webkit-backdrop-filter: blur(6x);
+        backdrop-filter: blur(6px);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        animation: leftFacein 0.4s ease;
+    }
+    .footer-name a{
+        background: var(--bg-value-color-6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+        font-family: 'Comic';
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2px;
+        animation: lightbug 4s ease infinite;
+    }
+    .footer-name a div{
+        width: 10px;
+        height: 10px;
+        background: url('https://avatars.githubusercontent.com/u/89434463?s=96&v=4');
+        background-size: cover;
+        margin-left: 2px;
+        border-radius: 50%;
+    }
+    .copyright-text{
+        font-size: 0.4rem;
+        color: var(--value-text-13);
+        padding: 0px 0px 0px 3px;
+        margin: 1.5px 0px 0px 1.5px;
+    }
+    /*Hộp chỉnh các thông số*/
+.setting-contain {
+    position: fixed;
+    left: 20px;
+    top: 30px;
+    width: min(100% - 92%);
+    height: auto;
+    z-index: 5;
+}
+.setting-contain .icon-setting {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-blend-mode: screen;
+    background-image: url('../assets/icons8-settings-256.png') no-repeat;
+    background-color: var(--value-19-bg);
+    background-size: cover;
+}
+.setting-contain .setting-option {
+    position: absolute;
+    left: -32px;
+    top: 50px;
+    width: 300px;
+    height: 200px;
+    transform: skewY(-6deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.setting-contain .setting-option .vfx-sound{
+    position: relative;
+    display: flex;
+    width: 90%;
+    height: 35px;
+    background: var(--bg-value-color-9);
+    -webkit-backdrop-filter: blur(5x);
+    backdrop-filter: blur(5px);
+    border-radius: 8px 8px 8px 8px;
+    padding: 3px 0px 3px 8px;
+    margin: 8px 0px 8px 0px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.setting-contain .setting-option .vfx-sound label{
+    position: absolute;
+    color: var(--value-text-5);
+    left: 10px;
+    z-index: 10;
+}
+.setting-contain .setting-option .vfx-sound .volume_slider{
+    width: 250px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 15px;
+    margin: 0px 0px 0px 10px;
+    background:  none;
+    overflow: hidden;
+}
+.setting-contain .setting-option .vfx-sound .volume_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 0px;
+    height: 15px;
+    cursor: pointer;
+    z-index: 6;
+}
+.setting-contain .setting-option .vfx-sound #progressbar {
+    width: 70%;
+    height: 45px;
+    background: var(--bg-value-color-10);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    border-radius: 0px 0px 0px 0px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}   
+.setting-contain .setting-option #fullscreen{
+    position: relative;
+    padding: 4px 10px 4px 10px;
+    margin: 8px 0px 8px 0px;
+    background: var(--bg-value-color-11);
+    -webkit-backdrop-filter: blur(10x);
+    backdrop-filter: blur(10px);
+    border-radius: 5px 8px 8px 5px;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+    align-items: left;
+}
+.setting-contain .setting-option #fullscreen .full-text{
+    position: relative;
+    text-decoration: none;
+    margin: 0 auto;
+    font-family: 'Comic';
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+}
+.setting-contain .setting-option #fullscreen:has(a, .full-text):hover{
+    background: var(--bg-value-color-11);
+    -webkit-backdrop-filter: blur(2x);
+    backdrop-filter: blur(2px);
+    letter-spacing: 0.5em;
+    color: var(--value-text-1);
+    font-weight: 500;
+    text-shadow: 0 0 10px var(--value-shadow-text-4),
+    0 0 20px var(--value-shadow-text-4),
+    0 0 30px var(--value-shadow-text-4),
+    0 0 40px var(--value-shadow-text-4);
+    animation: hopp 0.2s ease;
+}
+@keyframes hopp {
+    0%{
+        transform: translateY(0%);
+    }
+    20% {
+        transform: translateY(-30%);
+    }
+    40% {
+        transform: translateY(30%);
+    }
+    60% {
+        transform: translateY(-30%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+.setting-contain .setting-option .background-focus-box {
+    position: relative;
+    padding: 4px 8px 4px 8px;
+    margin: 8px 0px 8px 0px;
+    background: var(--bg-value-color-11);
+    -webkit-backdrop-filter: blur(10x);
+    backdrop-filter: blur(10px);
+    border-radius: 5px 8px 8px 5px;
+    
+}
+
+.setting-contain .setting-option .box-ui-contain {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, #1d29688b, #2f454a8d 30%);
+    -webkit-backdrop-filter: blur(10x);
+    backdrop-filter: blur(10px);
+    padding: 0px 2px 0px 2px;
+    margin: 8px 0px 8px 0px;
+    border-radius: 5px 8px 8px 5px;
+}
+.setting-contain .setting-option .box-ui-contain .toggle_switch{
+    width: 80px;
+    height: 35px;
+    position: relative;
+    
+}
+  
+.setting-contain .setting-option .box-ui-contain input[type="checkbox"].switch{
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    outline: 0;
+    z-index: 1;
+}
+  
+.setting-contain .setting-option .box-ui-contain svg.checkbox .outer-ring{
+    stroke-dasharray: 375;
+    stroke-dashoffset: 375;
+    -webkit-animation: resetRing .35s ease-in-out forwards;
+            animation: resetRing .35s ease-in-out forwards;
+}
+  
+.setting-contain .setting-option .box-ui-contain input[type="checkbox"].switch:checked + svg.checkbox .outer-ring{
+    -webkit-animation: animateRing .35s ease-in-out forwards;
+            animation: animateRing .35s ease-in-out forwards;
+}
+  
+.setting-contain .setting-option .box-ui-contain input[type="checkbox"].switch:checked + svg.checkbox .is_checked{
+    opacity: 1;
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+  }
+  
+.setting-contain .setting-option .box-ui-contain input[type="checkbox"].switch:checked + svg.checkbox .is_unchecked{
+    opacity: 0;
+    -webkit-transform: translateX(-200%) rotate(180deg);
+            transform: translateX(-200%) rotate(180deg);
+  }
+  
+  
+.setting-contain .setting-option .box-ui-contain svg.checkbox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+.setting-contain .setting-option .box-ui-contain svg.checkbox .is_checked{
+    opacity: 0;
+    fill: var(--value-21-bg);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: translateX(200%) rotate(45deg);
+            transform: translateX(200%) rotate(45deg);
+    -webkit-transition: all .35s;
+    transition: all .35s;
+}
+  
+.setting-contain .setting-option .box-ui-contain svg.checkbox .is_unchecked{
+    opacity: 1;
+    fill: var(--value-30-bg);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    -webkit-transition: all .35s;
+    transition: all .35s;
+}
+.setting-option.hide{
+    display: none;
+}
+.vfx-sound:has(label, #progressbar, .volume_slider).hide{
+  display: none;
+}
+#fullscreen:has(.full-text).hide{
+  display: none;
+}
+.toggle_switch:has(.switch, .outer-ring, .is_checked, .is_unchecked).hide{
+  display: none;
+}
+.background-focus-box.hide{
+  display: none;
+}
+.vfx-sound:has(label, #progressbar, .volume_slider).effect{
+  animation: showingSetting 0.7s ease-in forwards;
+}
+#fullscreen:has(.full-text).effect{
+  animation: showingSetting 0.7s ease-in forwards;
+}
+.toggle_switch:has(.switch, .outer-ring, .is_checked, .is_unchecked).effect{
+  animation: showingSetting 0.7s ease-in forwards;
+}
+.background-focus-box.effect{
+  animation: showingSetting 0.7s ease-in forwards;
+}
+@keyframes showingSetting{
+  0%{
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  100%{
+      transform: translateX(0%);
+      opacity: 1;
+  }
+}
+.vfx-sound:has(label, #progressbar, .volume_slider).endef{
+  animation: HidingSetting 0.7s ease-in forwards;
+}
+#fullscreen:has(.full-text).endef{
+  animation: HidingSetting 0.7s ease-in forwards;
+}
+.toggle_switch:has(.switch, .outer-ring, .is_checked, .is_unchecked).endef{
+  animation: HidingSetting 0.7s ease-in forwards;
+}
+.background-focus-box.endef{
+  animation: HidingSetting 0.7s ease-in forwards;
+}
+@keyframes HidingSetting{
+  0%{
+      transform: translateX(0%);
+      opacity: 1;
+  }
+  100%{
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+}
+.background-focusing{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(187, 138, 138, 0.315);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  z-index: 4;
+  display: block;
+}
+.background-focusing.hide{
+  display: none;
+}
+}
