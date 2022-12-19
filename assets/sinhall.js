@@ -2345,3 +2345,900 @@ const sinh8 = [
     "AA x aa."],
     answer: 2
     },];
+
+
+
+
+const sinhk1BT = [
+    {
+        q: "Ruồi giấm có 10 nhiễm sắc thể, vậy ta có thể phát hiện được tối đa là bao nhiêu nhóm gen liên kết",
+        options: [
+        " 8 nhóm",
+        " 5 nhóm ",
+        " 6 nhóm",
+        " 2 nhóm"],
+        answer: 1
+        },
+        {
+        q: "Ở ngô, 3 cặp gen không alen (Aa, Bb và Dd) nằm trên 3 cặp NST thường, tương tác cộng gộp cùng qui định TT chiều cao cây. Sự có mặt của mỗi gen trội trong KG làm cây cao thêm 5cm. cho biết cây thấp nhất có chiều cao 130 cm. KG của cây cao 145 cm là :",
+        options: [
+        " AabbDD",
+        " aaBbdd",
+        " ABBDD",
+        " AaBBDD"],
+        answer: 0
+        },
+        {
+        q: "Cơ thể có KG <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></span>, tỉ lệ phần trăm (%) giao tử liên kết là bao nhiêu, biết f = 30%.",
+        options: [
+        " AB = ab = 15%",
+        " AB = ab = 40%",
+        " AB = aB = 35%",
+        " Ab = aB = 40%"],
+        answer: 2
+        },
+        {
+        q: "Phát biểu nào sau đây chính xác nhất?",
+        options: [
+        " một gen quy định một enzym ",
+        " một gen quy định một tính trạng",
+        " một gen quy định một chuỗi polipeptit",
+        " một gen quy định một protein"],
+        answer: 1
+        },
+        {
+        q: "Bệnh mù màu (do gen lặn gây nên) thường thấy ở nam ít thấy ở nữ vì nam giới",
+        options: [
+        " chỉ cần mang 1 gen gây bệnh đã biểu hiện, nữ cần mang 1 gen lặn mới biểu hiện",
+        " cần mang 1 gen đã biểu hiện, nữ cần mang 2 gen lặn mới biểu hiện",
+        " cần mang 2 gen gây bệnh đã biểu hiện, nữ cần mang 2 gen lặn mới biểu hiện",
+        " chỉ cần mang 1 gen lặn đã biểu hiện, nữ cần mang 2 gen lặn mới biểu hiện"],
+        answer: 3
+        },
+        {
+        q: "Ở ruồi giấm gen W quy định TT mắt đỏ, gen w quy định TT mắt trắng mắt trắng nằm trên NST giới tính X không có alen tương ứng trên NST Y. Phép lai nào dưới đây sẽ cho toàn ruồi mắt đỏ.",
+        options: [
+        " x<sup>w</sup>x<sup>w</sup> x x<sup>w</sup>y ",
+        " x<sup>W</sup>x<sup>w</sup> x X<sup>W</sup>Y ",
+        " x<sup>w</sup>x<sup>w</sup> x X<sup>W</sup>Y",
+        " X<sup>W</sup>X<sup>W</sup> x x<sup>w</sup>y"],
+        answer: 3
+        },
+        {
+        q: "Ở người, bệnh mù màu (đỏ và lục) là do đột biến lặn nằm trên NST giới tính X gây nên(X<sup>m</sup>), gen trội M tương ứng quy định mắt bình thường. Một cặp vợ chồng sinh được một con trai bị mù màu và một con trai bình thường. Kiểu gen của cặp vợ chồng này là",
+        options: [
+        " X<sup>M</sup>X<sup>M</sup> x X<sup>m</sup>Y ",
+        " X<sup>M</sup>X<sup>m</sup> x X<sup>M</sup>Y",
+        " X<sup>M</sup>X<sup>m</sup> x X<sup>m</sup>Y<sup>m</sup>",
+        " X<sup>M</sup>X<sup>M</sup> x X<sup>M</sup>Y"],
+        answer: 1
+        },
+        {
+        q: "Hiện tượng hoán vị gen và liên kết gen có đặc điểm chung:",
+        options: [
+        " Các gen phân ly ngẫu nhiên và tổ hợp tự do",
+        " Các gen cùng nằm trên 1 cặp nhiễm sắc thể đồng dạng",
+        " Làm hạn chế xuất hiện biến dị tổ hợp",
+        " Làm xuất hiện nhiều biến dị tổ hợp"],
+        answer: 1
+        },
+        {
+        q: "Nội dung dưới đây không đúng trong trường hợp liên kết gen:",
+        options: [
+        " Do gen nhiều hơn NST nên trên một NST phải mang nhiều gen",
+        " Giúp xác định vị trí từng gen không alen trên NST qua đó lập bản đồ gen",
+        " Đảm bảo sự di truyền bền vững của từng nhóm tính trạng và hạn chế xuất hiện biến dị tổ hợp",
+        " Các gen trên cùng một NST phân li cùng nhau trong quá trình phân bào tạo thành nhóm gen liên kết"],
+        answer: 1
+        },
+        {
+        q: "Với tần số hoán vị gen là 40%, cá thể có kỉểu gen <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></span> cho tỉ lệ các loại giao tử là",
+        options: [
+        " AB = ab = 10%; Ab = aB = 40%",
+        " AB = ab = 30%; Ab = aB = 20%",
+        " AB = ab = 30%; Ab = aB = 20%",
+        " AB = ab = 20%; Ab = aB = 30%"],
+        answer: 1
+        },
+        {
+        q: "Tại sao trong di truyền qua tế bào chất TT luôn luôn được di truyền theo dòng mẹ và cho kết quả khác nhau trong lai thụân nghịch?",
+        options: [
+        " Do gen chi phối TT di truyền kết hợp với NST (NST) giới tính Y",
+        " Do gen chi phối TT di truyền kết hợp với NST (NST) giới tính X",
+        " Do hợp tử nhận tế bào chất có mang gen ngoài nhân chủ yếu từ mẹ",
+        " Do hợp tử nhận vật chất di truyền chủ yếu từ mẹ"],
+        answer: 2
+        },
+        {
+        q: "Loại tác động của gen thường được chú ý trong sản xuất nông nghiệp là:",
+        options: [
+        " 9:7",
+        " 15:1",
+        " 16:1",
+        " Tác động đa hiệu."],
+        answer: 1
+        },
+        {
+        q: "Một loài thực vật, gen 00 quy định cây cao, alen a: cây thấp; gen 1 quả đỏ, alen b: quả trắng. Các gen liên kết hoàn toàn trên cặp nhiễm sắc thể tương đồng. Cho cây có KG AB/ab giao phấn với cây có KG ab/ab, tỉ lệ KH ở F1 là",
+        options: [
+        " 1cây cao, quả trắng: 1cây thấp, quả đỏ",
+        " 3 cây cao, quả đỏ: 1cây thấp, quả trắng",
+        " 3 cây cao, quả trắng: 1 cây thấp, quả đỏ",
+        " 1 cây cao, quả đỏ: 1 cây thấp, quả trắng"],
+        answer: 3
+        },
+        {
+        q: "Khoảng cách giữa các gen trên bản đồ di truyền được đo bằng:",
+        options: [
+        " Tần số hóan vị gen",
+        " Độ bền vững của NST",
+        " Lực liên kết gen",
+        " Tỉ lệ giao tử"],
+        answer: 0
+        },
+        {
+        q: "Trong di truyền qua tế bào chất:",
+        options: [
+        " cơ thể mang cặp NST XX đóngvai trò quyết định",
+        " bố mẹ đóng vai trò như nhau",
+        " vai trò chủ yếu do tế bào chất của tế bào sinh dục đực",
+        " Di truyền theo dòng mẹ"],
+        answer: 3
+        },
+        {
+        q: "Trong quá trình giảm phân tạo giao tử, hiện tượng tiếp hợp và trao đổi đoạn của các cặp NST tương đồng xảy ra ở:",
+        options: [
+        " Kì đầu của giảm phân I",
+        " Kì giữa của giảm phân I",
+        " Kì sau giảm phân I",
+        " Kì đầu của giảm phân II"],
+        answer: 00
+        },
+        {
+        q: "gen trên x ở người di truyền",
+        options: [
+        " theo dòng mẹ",
+        " thẳng",
+        " chéo",
+        " tương tự như các gen nằm trên NST thường."],
+        answer: 2
+        },
+        {
+        q: "Để phát hiện quy luật hoán vị gen, Moocgan đã thực hiện:",
+        options: [
+        " Cho F1 của: thân xám cánh dài và thân đen, cánh ngắn tạp giao",
+        " Lai ph tích ruồi đực F1 của P thuần chủng thân xám cánh dài và thân đen cánh ngắn",
+        " L phân tích ruồi đực F1 của P thân xám cánh dài và thân đen cánh ngắn",
+        " Lai phân tích ruồi cái F1 của P thuần chủng thân xám cánh dài và thân đen cánh ngắn"],
+        answer: 3
+        },
+        {
+        q: "ở cà chua gen 00 quy định thân cao, a: thân thấp, 1: quả tròn, b: bầu dục, các gen cùng nằm trên một cặp NST tương đồng, liên kết chặt chẽ trong quá trình di truyền phép lai nào làm xuất hiện tỉ lệ phân tính: 3:1",
+        options: [
+        "<span class='frac'><sup>AB</sup><span>&frasl;</span><sub>aB</sub></span> x <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>aB</sub></span>",
+        "<span cla='frac'><sup>Ab</sup><span>&frasl;</span><sub>ab</sub></span> x <span class='frac'><sup>Ab</sup><span>&frasl;</span><sub>ab</sub></span>",
+        "<sp class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></sp> x <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></span>",
+        "cả đều đúng"],
+        answer: 3
+        },
+        {
+        q: "Tương tác cộng gộp là:",
+        options: [
+        " Khi các alen lặn thuộc 2 hoặc nhiều lôcut gen tương tác với nhau theo kiểu mỗi alen lặn đều làm tăng sự biểu hiện của KH",
+        " Khi các alen trội thuộc 2 hoặc nhiều lôcut gen tương tác với nhau theo kiểu mỗi alen trội đều làm tăng sự biểu hiện của KH",
+        " Khi các alen lặn thuộc 2 hoặc nhiều lôcut gen tương tác với nhau theo kiểu mỗi alen lặn đều làm giảm sự biểu hiện của KH",
+        " Khi các alen trội thuộc 2 hoặc nhiều lôcut gen tương tác với nhau theo kiểu mỗi alen trội đều làm giảm sự biểu hiện của KH"],
+        answer: 1
+        },
+        {
+        q: "Bố mẹ đều dị hợp 2 cặp gen mang kiểu hình thân cao, quả đỏ giao phấn với nhau. Tỷ lệ kiểu gen 1:1 là",
+        options: [
+        " <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></span> x <span class='frac'><sup>Ab</sup><span>&frasl;</span><sub>aB</sub></span>",
+        " <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></span> x <span class='frac'><sup>ab</sup><span>&frasl;</span><sub>ab</sub></span>",
+        " <span class='frac'><sup>Ab</sup><span>&frasl;</span><sub>aB</sub></span> x <span class='frac'><sup>Ab</sup><span>&frasl;</span><sub>aB</sub></span>",
+        " <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></span> x <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></span>"],
+        answer: 1
+        },
+        {
+        q: "Hiện tượng các gen thuộc những locus khác nhau cùng tác động trên một TT gọi là",
+        options: [
+        " Tương tác gen không alen",
+        " Li kết gen",
+        " Tương tác gen alen",
+        " Tính đa hiệu của gen"],
+        answer: 0
+        },
+        {
+        q: "Điều nào sau đây không đúng với nhóm gen liên kết?",
+        options: [
+        " Số nhóm tí trạng di truyền lien kết tương ứng với số nhóm gen liên kết",
+        " Số nh gen lien kết ở mỗi loài tương ứng NST trong bộ đơn bội của loài đó",
+        "  nhóm gen liên kết ở mỗi loài tương ứng NST trong bộ lưỡng bội của loài đó",
+        " gen nằm trên một NST tạo thành một nhóm gen liên kết"],
+        answer: 2
+        },
+        {
+        q: "Nhiều gen cùng quy định cho 1 tính trạng gọi là:",
+        options: [
+        " Gen đa hiệu",
+        " Liên kết gen",
+        " Tương tác gen",
+        " Hoán vị gen"],
+        answer: 2
+        },
+        {
+        q: "Ở 1 loài thực vật, hai cặp gen tương tác với nhau để cùng quy định màu hoa, A_B_ : hoa màu đỏ, A_bb, aaB_ , aabb : hoa màu trắng. Cho phép lai Aabb x aaBb thì tỉ lệ kiểu hình thu được ở thế hệ sau là :",
+        options: [
+        " 3 hoa đỏ : 1 hoa trắng",
+        " 100 %hoa đỏ",
+        " 1 hoa đỏ : 1 hoa trắng",
+        " 1 hoa đỏ : 3 hoa trắng"],
+        answer: 3
+        },
+        {
+        q: "Khi 1 gen đa hiệu bị đột biến sẽ dẫn tới sự biến dị:",
+        options: [
+        " Ở 1 loạt tính trạng do nó chi phối",
+        " Ở toàn bộ kiểu hình",
+        " 1 tính trạng",
+        " Ở 1 trong số tính trạng mà nó chi phối"],
+        answer: 0
+        },
+        {
+        q: "Một loài thực vật, nếu có hai gen trội A và B trong cùng KG thì cho hoa màu đỏ, các KG khác đều cho hoa màu trằng. Cho lai phân tích cá thể dị hợp hai cặp gen. Kết quả lai phân tích ở Fa là",
+        options: [
+        " 100% hoa đỏ",
+        " 3 hoa đỏ : 1 hoa trắng",
+        " 1 hoa đỏ : 3 hoa trắng",
+        " 1 hoa đỏ : 1 hoa trắng"],
+        answer: 2
+        },
+        {
+        q: "Người ta cho rằng gen HbS là gen đa hiệu vì :",
+        options: [
+        " 1 gen HbS gây biến đổi ở 2 chuỗi polipeptit",
+        " HbA chỉ có 1 hiệu quả , còn HbS nhiều tác động",
+        " Nó tạo ra sản phẩm gây nên nhiều rối loạn bệnh lí",
+        " 1 gen Hb nói chung mã hóa 4 chuỗi polipeptit"],
+        answer: 3
+        },
+        {
+        q: "Nếu tần số hoán vị gen bằng 50%, thì hoán vị gen và PLĐL:",
+        options: [
+        " Giống tỉ lệ phân li KG",
+        " Giống tỉ lệ phân li KH",
+        " Không thể coi hoán vị gen giống với PLĐL",
+        " Hoán vị gen giống PLĐL"],
+        answer: 3
+        },
+        {
+        q: "Quy luật di truyền làm tăng biến dị tổ hợp là:",
+        options: [
+        " Phân li",
+        " Liên kết gen",
+        " Hoán vị gen",
+        " Tương tác gen"],
+        answer: 2
+        },
+        {
+        q: "Đặc điểm nào dưới đây là đặc điểm chung của hiện tượng hoán vị gen và phân li độc lập",
+        options: [
+        " Làm hạn chế xuất hiện biến dị tổ hợp",
+        " Các gen phân li ngẫu nhiên và tổ hợp tự do",
+        " Làm xuất hiện biến dị tổ hợp",
+        " Các gen không alen cùng nằm trên một cặp NST tương đồng"],
+        answer: 2
+        },
+        {
+        q: "Phép lai cho tỉ lệ KH 3 : 1 là:",
+        options: [
+        " <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></span> x <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></span>",
+        " <span class='frac'><sup>Ab</sup><span>&frasl;</span><sub>aB</sub></span> x <span class='frac'><sup>Ab</sup><span>&frasl;</span><sub>aB</sub></span>",
+        " <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></span> x <span class='frac'><sup>ab</sup><span>&frasl;</span><sub>aB</sub></span>",
+        " <span class='frac'><sup>Ab</sup><span>&frasl;</span><sub>aB</sub></span> x <span class='frac'><sup>ab</sup><span>&frasl;</span><sub>ab</sub></span>"],
+        answer: 0
+        },
+        {
+        q: "Hiện tượng di truyền qua tế bào chất có đặc điểm:",
+        options: [
+        " Tính trạng biểu hiện đồng loạt ở thế hệ lai",
+        " Tính trạng luôn luôn được di truyền theo dòng mẹ",
+        " Lai thuận nghịch cho kết quả khác nhau",
+        " Tất cả đều đúng"],
+        answer: 1
+        },
+        {
+        q: "Ở thỏ, chiều dài tai do tác động giữa 2 cặp gen phân li độc lập quy định. Mỗi gen trội làm tăng chiều dài của tai thỏ 5cm so với 1 gen lặn. Tai dài nhất ở thỏ là 30cm. Những kiểu gen biểu hiện kiểu hình tai thỏ dài 20cm là:",
+        options: [
+        " AAbb và aaBb",
+        " AAbb, aaBB",
+        " AAbb, aaBB và AaBb",
+        " AABb AaBB"],
+        answer: 2
+        },
+        {
+        q: "Phép lai nào sau đây cho tỉ lệ KG 1: 1: 1: 1?",
+        options: [
+        " <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></span> x <span class='frac'><sup>ab</sup><span>&frasl;</span><sub>ab</sub></span>",
+        " <span class='frac'><sup>Ab</sup><span>&frasl;</span><sub>ab</sub></span> x <span class='frac'><sup>ab</sup><span>&frasl;</span><sub>ab</sub></span>",
+        " <span class='frac'><sup>Ab</sup><span>&frasl;</span><sub>ab</sub></span> x <span class='frac'><sup>aB</sup><span>&frasl;</span><sub>ab</sub></span>",
+        " <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>aB</sub></span> x <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></span>"],
+        answer: 0
+        },
+        {
+        q: "Phát biểu nào dưới đây về quy luật hoán vị gen là không đúng?",
+        options: [
+        " Trên cùng một NST các gen nằm cách xa nhau thì tần số hoán vị gen càng bé và ngược lại",
+        " Do xu hương chủ yếu của các gen là liên kết nên trong giảm phân tần số hoán vị gen không vượt quá 50%",
+        " Làm xuất hiện các tổ hợp gen do các gen nằm trên các NST khác nhau của cặp tương đồng thay đổi vị trí",
+        " Cơ sở tế bào học của quy luật hoán vị gen là hiện tưởng trao đổi chéo giữa các crômatit của cặp NST tương đồng xảy ra trong quá trình giảm phân I"],
+        answer: 0
+        },
+        {
+        q: "Đặc điểm không có ở di truyền qua nhân là:",
+        options: [
+        " Gen nằm trên nst thường",
+        " Gen nằm trong tỉ thể lạp thể",
+        " Gen nằm trên nst X",
+        " Gen nằm trên nst Y"],
+        answer: 1
+        },
+        {
+        q: "Điểm khác nhau giữa hoán vị gen và liên kết gen là:",
+        options: [
+        " Tạo ra các biến dị tổ hợp",
+        " Các gen cùng nằm trên 1 cặp NST tương đồng",
+        " Mỗi cặp gen quy định một tính trạng",
+        " Có sự tương tác gen."],
+        answer: 0
+        },
+        {
+        q: "Trong cặp nhiễm sắc thể giới tính XY vùng tương đồng chứa các gen di truyền",
+        options: [
+        " theo dòng mẹ",
+        " chéo",
+        " thẳng",
+        " tương tự như các gen nằm trên nhiễm sắc thể thường"],
+        answer: 3
+        },
+        {
+        q: "Cơ sở tế bào học của sự liên kết hoàn toàn là",
+        options: [
+        " các gen trong nhóm liên kết cùng phân li với NST trong quá trình phân bào",
+        " sự phân li của NST tương đồng trong giảm phân",
+        " các gen trong nhóm liên kết di truyền không đồng thời với nhau",
+        " sự thụ tinh đã đưa đến sự tổ hợp của các NST tương đồng"],
+        answer: 0
+        },
+        {
+        q: "Để xác định cơ thể mang kiểu hình trội là đồng hợp hay dị hợp, người ta dùng phương pháp:",
+        options: [
+        " phân tích cơ thể lai",
+        " lai thuận nghịch",
+        " tạp giao",
+        " lai phân tích"],
+        answer: 3
+        },
+        {
+        q: "Menđen cho rằng: Cặp nhân tố di truyền (1 có nguồn gốc từ bố, 1 có nguồn gốc từ mẹ) tồn tại trong cơ thể con theo kiểu",
+        options: [
+        " Liên kết nhau nhưng không hòa trộn vào nhau",
+        " Riêng rẽ và không hòa trộn vào nhau",
+        " Riêng rẽ và hòa trộn vào nhau",
+        " Liên kết nhau, hòa trộn vào nhau"],
+        answer: 1
+        },
+        {
+        q: "Ghép các dữ kiện sau thành câu có nghĩa đúng:<br>&nbsp;&nbsp;1. Gen&nbsp;&nbsp;&nbsp;&nbsp;a. Trạng thái của một gen<br>&nbsp;&nbsp;3. Alen&nbsp;&nbsp;&nbsp;&nbsp;b. Vị trí của gen trên NST<br>&nbsp;&nbsp;2. Lôcut gen&nbsp;&nbsp;&nbsp;&nbsp;c. Đoạn ADN qui định một tính trạng",
+        options: [
+        " 1a, 2b, 3c",
+        " 1c, 2b, 3a",
+        " 2a, 1c, 3b",
+        " 2a, 1b, 3c"],
+        answer: 1
+        },
+        {
+        q: "Điểm độc đáo nhất trong nghiên cứu Di truyền của Menđen là",
+        options: [
+        " đã tách ra từng cặp tính trạng, theo dõi sự thể hiện cặp tính trạng đó qua các thế hệ lai sử dụng lí thuyết xác suất và toán học để xử lý kết quả",
+        " lai từ một đến nhiều cặp tính trạng",
+        " sử dụng lai phân tích để kiểm tra kết quả",
+        " chọn bố mẹ thuần chủng đem lai"],
+        answer: 0
+        },
+        {
+        q: "Nếu ở thế hệ bố mẹ thuần chủng khác nhau về n cặp gen thì số lượng các loại kiểu gen ở F2 là:",
+        options: [
+        " n",
+        " 2n",
+        " 4n",
+        " 3n"],
+        answer: 3
+        },
+        {
+        q: "Ở phép lai AaBbDd x AaBbDd, tỉ lệ cơ thể AaBbDd:",
+        options: [
+        " 2/8",
+        " 1/8",
+        " 9/64",
+        " 27/64"],
+        answer: 1
+        },
+        {
+        q: "Ở cà chua, A là gen quy định quả tròn, a quả bầu, B quả ngọt, b quả chua. Các gen phân li độc lập. Cho cặp bố mẹ có KG AaBb x aaBb. Loại KG aaBb xuất hiện ở đời F1 với tỉ lệ là:",
+        options: [
+        " 12,5%",
+        " 6,25%",
+        " 25%",
+        " 50%"],
+        answer: 2
+        },
+        {
+        q: "Ở cà chua, màu quả đỏ là trội hoàn toàn so với quả vàng, cho biết tính trạng màu quả do một gen quy định. Xác định kết quả phép lai giữa các cây quả đỏ không thuần chủng với nhau?",
+        options: [
+        " 1 quả đỏ : 1 quả vàng",
+        " 3 quả đỏ : 1 quả vàng",
+        " 100% quả đỏ",
+        " 1 quả đỏ : 3 quả vàng"],
+        answer: 1
+        },
+        {
+        q: "Thực chất của qui luật phân li là",
+        options: [
+        " Sự phân li của các alen",
+        " Sự phân li của các cá thể ở thế hệ sau",
+        " Sự phân li của các NST",
+        " Sự phân li của các tính trạng"],
+        answer: 0
+        },
+        {
+        q: "Trong trường hợp trội không hoàn toàn, tỉ lệ kiểu gen, kiểu hình của phép lai P : Aa x aa lần lượt là:",
+        options: [
+        " 1 : 2 : 1 và 1 : 2 : 1",
+        " 1 : 1 và 1 : 1",
+        " 1 : 2 : 1 và 3 : 1",
+        " 3 : 1 và 3 : 1"],
+        answer: 1
+        },
+        {
+        q: "Ở người, mắt đen (3) là trội hoàn toàn so với mắt xanh (d). Bố mẹ đều mắt đen, sinh ra con có mắt đen và mắt xanh. KG của P là",
+        options: [
+        " DD x Dd",
+        " Dd x Dd",
+        " DD x DD",
+        " DD x dd"],
+        answer: 1
+        },
+        {
+        q: "Cho biết một gen quy định một TT và TT trội là trội hoàn toàn. Theo lí thuyết, phép lai Aa x AA cho ra đời con có",
+        options: [
+        " 2 KG, 3 KH",
+        " 2 KG, 2 KH",
+        " 2 KG, 1 KH",
+        " 3 KG, 3 KH"],
+        answer: 2
+        },
+        {
+        q: "Menđen đã sử dụng phương pháp nào sau đây để nghiên cứu DT?",
+        options: [
+        " Phương pháp lai phân tích",
+        " Phương pháp nghiên cứu DT phân tử",
+        " Phương pháp lai và phân tích con lai",
+        " Phương pháp nghiên cứu DT tế bào"],
+        answer: 2
+        },
+        {
+        q: "Ở 1 loài có kiểu gen: AaBbDdEeff khi giảm phân cho số loại giao tử là (các gen di truyền độc lập)",
+        options: [
+        " 4",
+        " 16",
+        " 32",
+        " 8"],
+        answer: 1
+        },
+        {
+        q: "Ở đậu Hà Lan, nếu kí hiệu 00 là alen qui định hạt vàng, a alen qui định hạt xanh, 1 là alen qui định hạt trơn, b là alen qui định hạt nhăn. Xác định phép lai nào sau đây tạo ra nhiều kiểu hình nhất:",
+        options: [
+        " AaBb x AaBB",
+        " AaBB x AABb",
+        " AaBb x aabb",
+        " AABb x AaBb"],
+        answer: 2
+        },
+        {
+        q: "Số tổ hợp tạo ra từ phép lai AaBbddEe x aabbDdee là:",
+        options: [
+        " 64",
+        " 8",
+        " 32",
+        " 16"],
+        answer: 3
+        },
+        {
+        q: "Thế hệ con có tỉ lệ KH lặn chiếm 1/4 là của phép lai:",
+        options: [
+        " Aabb x aabb",
+        " AaBb x aabb",
+        " AaBb x aaBB",
+        " AaBb x AaBb"],
+        answer: 1
+        },
+        {
+        q: "Điều kiện nghiệm đúng đặc trưng của qui luật phân li độc lập là:",
+        options: [
+        " các cặp alen qui định các tính trạng khác nhau phải cùng nằm trên một cặp NST tương đồng",
+        " các cặp alen qui định các tính trạng khác nhau phải nằm trên các cặp NST tương đồng khác nhau",
+        " số lượng cá thể con lai phải lớn",
+        " có hiện tượng trội – lặn hoàn toàn"],
+        answer: 1
+        },
+        {
+        q: "Kết luận nào sau đây đúng khi nói về kết qủa của phép lai AaBbx Aabb",
+        options: [
+        " Tỷ lệ kiểu hình là 1:1:1:1",
+        " Có 8 tổ hợp giao tử ở con lai",
+        " tỷ lệ kiểu gen là triển khai của biểu thức (1:2:1)2",
+        " Có 9 kiểu gen"],
+        answer: 1
+        },
+        {
+        q: "KG nào dưới đây là KG dị hợp?",
+        options: [
+        " aabb",
+        " Aabb",
+        " AABB",
+        " AaBB"],
+        answer: 1
+        },
+        {
+        q: "Cho cá thể có KG AaBb tự thụ, thì số hợp tử tạo thành là:",
+        options: [
+        " 4",
+        " 8",
+        " 16",
+        " 32"],
+        answer: 2
+        },
+        {
+        q: "Phép lai giữa 2 cá thể có KG AaBbDd x aaBBDd (mỗi gen quy định một TT, các gen trội là trội hoàn toàn) sẽ cho ra. Tỉ lệ phân li ở F1 của KG AaBBDd là",
+        options: [
+        " 3/8",
+        " 1/8",
+        " 7/8",
+        " 9/8"],
+        answer: 1
+        },
+        {
+        q: "Cho biết các cặp gen phân li độc lập và mỗi gen qui định một tính trạng thì cá thể có kiểu gen AaBb cho các loại giao tử là",
+        options: [
+        " AA, aa, BB, bb",
+        " Aa, Ab, aB, bb",
+        " AB, aB, Ab, ab",
+        " A, B, a, b"],
+        answer: 2
+        },
+        {
+        q: "Ở cà chua, màu quả đỏ là trội hoàn toàn so với quả vàng, cho biết tính trạng màu quả do một gen quy định. Xác định phép lai nào sau đây sẽ có tỉ lệ kiểu hình ở F1 giốngnhau:",
+        options: [
+        " ♀ Aa x ♂ aa và ♀ aa x ♂ Aa",
+        " ♀ Aa x ♂ AA và ♀ Aa x ♂ aa",
+        " ♀ Aa x ♂ aa và ♀ aa x ♂ AA",
+        " ♀ aa x ♂ Aa và ♀ Aa x ♂ AA"],
+        answer: 0
+        },
+        {
+        q: "Ở đậu Hà Lan, nếu kí hiệu A là alen qui định hạt vàng, a alen qui định hạt xanh, B là alen qui định hạt trơn, b là alen qui định hạt nhăn. Xác định phép lai nào sau đây tạo ra nhiều tổ hợp nhất:",
+        options: [
+        " AaBb x AaBB",
+        " AABb x AaBb",
+        " AaBb x AABb",
+        " AaBb x AaBb"],
+        answer: 3
+        },
+        {
+        q: "Để giải thích kết quả ở F2 của phép lai giữa hai cơ thể thuần chủng, khác nhau về một cặp tính trạng tương phản thì Menđen đề ra giả thuyết:",
+        options: [
+        " sự phân li và tổ hợp của các tính trạng ở F1",
+        " sự phân li và tổ hợp của các nhân tố di truyền ở F1",
+        " sự phân li và tổ hợp của các cặp nhân tố di truyền ở F1",
+        " sự phân li và tổ hợp của các cặp tính trạng ở F1"],
+        answer: 2
+        },
+        {
+        q: "Các gen nào sau đây là alen?",
+        options: [
+        " A và b",
+        " a và b",
+        " A và B",
+        " A và a"],
+        answer: 3
+        },
+        {
+        q: "Theo giả thuyết của Menđen, cơ thể lai F1 tạo được giao tử:",
+        options: [
+        " chỉ chứa một cặp nhân tố di truyền của bố hoặc mẹ",
+        " chỉ chứa một nhân tố di truyền của mẹ",
+        " chỉ chứa một nhân tố di truyền của bố",
+        " chỉ chứa một nhân tố di truyền của bố hoặc mẹ"],
+        answer: 3
+        },
+        {
+        q: "Trong TN của Menđen, khi cho cây hoa đỏ lai phân tích, thu đựơc tỉ lệ:",
+        options: [
+        " 100% hoa đỏ",
+        " 50% hoa đỏ : 50% hoa trắng",
+        " 75% hoa đỏ : 25% hoa trắng",
+        " 2 trong các đáp án trên"],
+        answer: 3
+        },
+        {
+        q: "Trong phép lai của Menđen, khi cho cây hoa đỏ lai phân tích, thế hệ sau thu được ½ hoa đỏ : ½ hoa trắng. KG của cây hoa đỏ là:",
+        options: [
+        " Aa",
+        " AA",
+        " aa",
+        " A, B đúng"],
+        answer: 0
+        },
+        {
+        q: "Cá thể có kiểu gen AaBbCc khi giảm phân bình thường cho bao nhiêu loại giao tử khác nhau:",
+        options: [
+        " 8",
+        " 16",
+        " 6",
+        " 4"],
+        answer: 0 
+        },
+        {
+        q: "Lai 2 cá thể có KG AaBB và AABb. F1 cho TLKG như thế nào?",
+        options: [
+        " (3:1)(1:1)",
+        " (1:2:1)(1:1)",
+        " (1:1)(1:1)",
+        " (1:1)(1:2)"],
+        answer: 2
+        },
+        {
+        q: "Trong một thí nghiệm lai giữa các cây cà chua quả đỏ có kiểu gen dị hợp với nhau người ta thu được 1200 quả đỏ lẫn quả vàng. Biết mỗi gen qui định 1 tính trạng. Số lượng quả vàng có trong số quả trên xấp xỉ là:",
+        options: [
+        " 600",
+        " 500",
+        " 400",
+        " 300"],
+        answer: 3
+        },
+        {
+        q: "Locus gen là:",
+        options: [
+        " trạng thái của gen",
+        " vị trí của gen trên NST",
+        " kiểu hình của gen",
+        " các gen mới của cùng một gen"],
+        answer: 1
+        },
+        {
+        q: "Trình tự các bước trong phương pháp nghiên cứu DT của Menđen là:<br>&nbsp;&nbsp;(1) Tạo dòng TC về từng TT bằng cách cho tự thụ phấn qua nhiều thế hệ.<br>&nbsp;&nbsp;(2) Sử dụng toán xác suất thống kê để phân tích kết quả lai, sau đó đưa ra giả thuyết giải thích kết quả.<br>&nbsp;&nbsp;(3) Lai các dòng TC khác biệt nhau bởi một hoặc nhiều TT rồi phân tích kết quả lai ở đời F1, F2, F3.<br>&nbsp;&nbsp;(4) Tiến hành thí nghiệm chứng minh theo giả thuyết.",
+        options: [
+        " (1) → (3) → (2) → (4)",
+        " (1) → (2) → (3) → (4)",
+        " (3) → (2) → (1) → (4)",
+        " (3) → (1) → (2) → (4)"],
+        answer: 0
+        },
+        {
+        q: "Theo nội dung của qui luật phân li, mỗi tính trạng do:",
+        options: [
+        " hai alen khác nhau quy định",
+        " hai alen giống nhau qui định",
+        " một cặp alen quy định",
+        " một alen quy định"],
+        answer: 2
+        },
+        {
+        q: "Cho biết phép lai AaBbdd x AaBbdd, xác định số kiểu tổ hợp và số loại KH:",
+        options: [
+        " 16 kiểu tổ hợp, 8 loại KH",
+        " 16 kiểu tổ hợp, 4 loại KH",
+        " 32 kiểu tổ hợp, 8 loại KH",
+        " 24 kiểu tổ hợp, 8 loại KH"],
+        answer: 3
+        },
+        {
+        q: "Tỷ lệ phân ly kiểu gen ở F1 trong phép lai P: AaBb x Aabb",
+        options: [
+        " 1:2:1:1:2:1",
+        " 3:3:1:1",
+        " 1:1:1:1",
+        " (3+1)2"],
+        answer: 0
+        },
+        {
+        q: "Nếu ở thế hệ bố mẹ thuần chủng khác nhau về n cặp gen thì số loại giao tử của F1 là:",
+        options: [
+        " 3n",
+        " 4n",
+        " n",
+        " 2n"],
+        answer: 0
+        },
+        {
+        q: "Muốn tiến hành lai phân tích, người ta cho đối tượng nghiên cứu",
+        options: [
+        " Tự thụ phấn",
+        " Lai trở lại với bố mẹ",
+        " Lai với cá thể đồng hợp lặn về tính trạng tương ứng",
+        " Lai với F1"],
+        answer: 2
+        },
+        {
+        q: "Cho biết một gen quy định một TT và TT trội là trội hoàn toàn. Theo lí thuyết, phép lai Aa x Aa cho ra đời con có",
+        options: [
+        " 2 KG, 3 KH",
+        " 2 KG, 2 KH",
+        " 3 KG, 2 KH",
+        " 3 KG, 3 KH"],
+        answer: 2
+        },
+        {
+        q: "Cho biết phép lai AaBbdd x AaBbdd, xác định số kiểu tổ hợp và số loại KH:",
+        options: [
+        " 16 kiểu tổ hợp, 8 loại KH",
+        " 16 kiểu tổ hợp, 4 loại KH",
+        " 32 kiểu tổ hợp, 8 loại KH",
+        " 24 kiểu tổ hợp, 8 loại KH"],
+        answer: 1
+        },
+        {
+        q: "Cho cá thể có KG AaBb tự thụ, thì số hợp tử tạo thành là:",
+        options: [
+        " 4",
+        " 8",
+        " 16",
+        " 32"],
+        answer: 2
+        },
+        {
+        q: "Ở cà chua, màu quả đỏ là trội hoàn toàn so với quả vàng, cho biết tính trạng màu quả do một gen quy định. Xác định phép lai nào sau đây sẽ có tỉ lệ kiểu hình ở F1 giống nhau:",
+        options: [
+        " ♀ Aa x ♂ aa và ♀ aa x ♂ Aa",
+        " ♀ Aa x ♂ AA và ♀ Aa x ♂ aa",
+        " ♀ Aa x ♂ aa và ♀ aa x ♂ AA",
+        " ♀ aa x ♂ Aa và ♀ Aa x ♂ AA"],
+        answer: 0
+        },
+        {
+        q: "Ở đậu Hà Lan, nếu kí hiệu A là alen qui định hạt vàng, a alen qui định hạt xanh, B là alen qui định hạt trơn, b là alen qui định hạt nhăn. Xác định phép lai nào sau đây tạo ra nhiều tổ hợp nhất:",
+        options: [
+        " AaBb x AaBB",
+        " AABb x AaBb",
+        " AaBb x AABb",
+        " AaBb x AaBb"],
+        answer: 3
+        },
+        {
+        q: "Phép lai P: AaBb x aaBb cho F1 có tỷ lệ kiểu gen:",
+        options: [
+        " (1:2:1)2",
+        " 1:2:1:1:2:1",
+        " 3:3:1:1",
+        " 9:3:3:1"],
+        answer: 1
+        },
+        {
+        q: "Ở một đậu Hà Lan, xét 2 cặp alen trên 2 cặp nhiễm sắc thể tương đồng; gen A: vàng, alen a: xanh; gen B: hạt trơn, alen b: hạt nhăn. Dự đoán kết quả về kiểu hình của phép lai P: AaBB x AaBb.",
+        options: [
+        " 3 vàng, trơn: 1 vàng, nhăn",
+        " 3 vàng, trơn: 1 xanh, trơn",
+        " 1 vàng, trơn: 1 xanh, trơn",
+        " 3 vàng, nhăn: 1 xanh, trơn"],
+        answer: 1
+        },
+        {
+        q: "Thế hệ con có tỉ lệ kiểu hình lặn chiếm ¼ của phép lai:",
+        options: [
+        " Aabb x aabb",
+        " AaBb x aabb",
+        " AaBb x aaBB",
+        " AaBb x AaBb"],
+        answer: 1
+        },
+        {
+        q: "Cho biết các gen phân li độc lập, tác động riêng rẽ, các alen trội là trội hoàn toàn và không xảy ra đột biến. Theo lí thuyết, trong tổng số cá thể thu được từ phép lai AaBbddEe × AabbDdEe, số cá thể có kiểu gen AAbbDdee chiếm tỉ lệ",
+        options: [
+        " 1/32",
+        " 1/16",
+        " 1/8",
+        " 1/64"],
+        answer: 3
+        },
+        {
+        q: "Theo Mendel, với kiển gen có n cặp gen dị hợp thì: số loại giao tử được tạo thành từ kiểu gen đó là:",
+        options: [
+        " 2n",
+        " 3n",
+        " 4n",
+        " 5n"],
+        answer: 0
+        },
+        {
+        q: "Biết hoán vị gen xảy ra với tần số 24%. Theo lí thuyết, cơ thể có kiểu gen <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></span> giảm phân cho ra loại giao tử Ab với tỉ lệ",
+        options: [
+        " 24%",
+        " 48%",
+        " 12%",
+        " 76%"],
+        answer: 2
+        },
+        {
+        q: "Ở ruồi giấm, bộ nhiễm sắc thể lưỡng bội 2n = 8. Số nhóm gen liên kết của loài này là",
+        options: [
+        " 4",
+        " 6",
+        " 2",
+        " 8"],
+        answer: 0
+        },
+        {
+        q: "Biết hoán vị gen xảy ra với tần số 20%. Theo lí thuyết, cơ thể có kiểu gen giảm phân cho ra loại giao tử Ab với tỉ lệ",
+        options: [
+        " 10%",
+        " 40%",
+        " 12%",
+        " 76%"],
+        answer: 1
+        },
+        {
+        q: "Một loài thực vật, xét hai cặp gen trên hai cặp nhiễm sắc thể tương đồng quy định tính trạng màu hoa. Kiểu gen A-B-: hoa đỏ, A-bb và aaB-: hoa hồng, aabb: hoa trắng.<br>&nbsp;&nbsp;a) Phép lai P: Aabb x aaBb cho tỉ lệ các loại kiểu hình ở F1 là bao nhiêu?",
+        options: [
+        " 2 đỏ: 1 hồng: 1 trắng",
+        " 1 đỏ: 3 hồng: 4 trắng",
+        " 3 đỏ: 1 hồng: 4 trắng",
+        " 1 đỏ: 2 hồng: 1 trắng"],
+        answer: 3
+        },
+        {
+        q: "Trên một nhiễm sắc thể, xét 4 gen A, B, C và D. Khoảng cách tương đối giữa các gen là: AB = l,5 cM, BC = 16,5 cM, BD = 3,5 cM, CD = 20 cM, AC = 18 cM. Trật tự đúng của các gen trên nhiễm sắc thể đó là ",
+        options: [
+        " CABD",
+        " DABC",
+        " BACD",
+        " ABCD"],
+        answer: 0
+        },
+        {
+        q: "Người mang hội chứng Đao có bộ NST là:",
+        options: [
+        " 2n = 47",
+        " 2n +1 = 47",
+        " 2n -1 = 45",
+        " 2n = 46"],
+        answer: 1
+        },
+        {
+        q: "Loài cải củ có 2n= 18, số lượng NST ở thể tam bội là:",
+        options: [
+        " 9",
+        " 18",
+        " 27",
+        " 36"],
+        answer: 2
+        },
+        {
+        q: "cho kiểu gen AaBBDeEe cho giao tử AaDe chiếm tỷ lệ là:",
+        options: [
+        " 12,5%",
+        " 25%",
+        " 30%",
+        " 40%"],
+        answer: 0
+        },
+        {
+        q: "cho kiểu gen aaBb cho giao tử chiếm 50% là:",
+        options: [
+        " a,b",
+        " A,B",
+        " Ab",
+        " Ab"],
+        answer: 3
+        },
+];

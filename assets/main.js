@@ -201,48 +201,44 @@ function func() {
     else if(type[1].checked){
         var val = type[1].value;
         console.log(val + " đã được chọn");
-        quesbio = sinh1v2;
-        textInfo = "sinh bài 1 - 2";
+        quesbio = sinhk1BT;
+        textInfo = "HK1 sinh bài tập";
     }
     else if(type[2].checked){
         var val = type[2].value;
         console.log(val + " đã được chọn");
-        quesbio = sinh3;
-        textInfo = "sinh bài 3";
+        quesbio = sinh1v2;
+        textInfo = "sinh bài 1 - 2";
     }
     else if(type[3].checked){
         var val = type[3].value;
         console.log(val + " đã được chọn");
-        quesbio = sinh4;
-        textInfo = "sinh bài 4";
+        quesbio = sinh3;
+        textInfo = "sinh bài 3";
     }
     else if(type[4].checked){
         var val = type[4].value;
         console.log(val + " đã được chọn");
-        quesbio = sinh5;
-        textInfo = "sinh bài 5";
+        quesbio = sinh4;
+        textInfo = "sinh bài 4";
     }
     else if(type[5].checked){
         var val = type[5].value;
         console.log(val + " đã được chọn");
-        quesbio = sinh6;
-        textInfo = "sinh bài 6";
+        quesbio = sinh5;
+        textInfo = "sinh bài 5";
     }
     else if(type[6].checked){
         var val = type[6].value;
         console.log(val + " đã được chọn");
-        quesbio = sinh8;
-        textInfo = "sinh bài 8";
+        quesbio = sinh6;
+        textInfo = "sinh bài 6";
     }
     else if(type[7].checked){
         var val = type[7].value;
         console.log(val + " đã được chọn");
-        textInfo = "none excist file";
-        let indRan = RanTe(0, funTe.length-1);
-        Ranoe.innerText = funTe[indRan];
-        home.classList.add("hide");
-        noneEx.classList.remove("hide");
-
+        quesbio = sinh8;
+        textInfo = "sinh bài 8";
     }
     else if(type[8].checked){
         var val = type[8].value;
@@ -252,9 +248,19 @@ function func() {
         Ranoe.innerText = funTe[indRan];
         home.classList.add("hide");
         noneEx.classList.remove("hide");
+
     }
     else if(type[9].checked){
         var val = type[9].value;
+        console.log(val + " đã được chọn");
+        textInfo = "none excist file";
+        let indRan = RanTe(0, funTe.length-1);
+        Ranoe.innerText = funTe[indRan];
+        home.classList.add("hide");
+        noneEx.classList.remove("hide");
+    }
+    else if(type[10].checked){
+        var val = type[10].value;
         console.log(val + " đã được chọn");
         textInfo = "none excist file";
         let indRan = RanTe(0, funTe.length-1);

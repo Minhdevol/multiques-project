@@ -1254,6 +1254,19 @@ section text h2 > span.icon-style:nth-child(even){
     align-items: center;
 }
 
+span.frac {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+  }
+span.frac > sup, span.frac > sub {
+    display: block;
+    font: inherit;
+    padding: 0 0.3em;
+  }
+span.frac > sup {border-bottom: 0.08em solid;}
+span.frac > span {display: none;}
+
 
 
 /*00----------------00----0000000000000-----000-0000----------000--------00000000--*/
