@@ -2459,7 +2459,7 @@ const sinhk1BT = [
         answer: 1
         },
         {
-        q: "Một loài thực vật, gen 00 quy định cây cao, alen a: cây thấp; gen 1 quả đỏ, alen b: quả trắng. Các gen liên kết hoàn toàn trên cặp nhiễm sắc thể tương đồng. Cho cây có KG AB/ab giao phấn với cây có KG ab/ab, tỉ lệ KH ở F1 là",
+        q: "Một loài thực vật, gen A quy định cây cao, alen a: cây thấp; gen B quả đỏ, alen b: quả trắng. Các gen liên kết hoàn toàn trên cặp nhiễm sắc thể tương đồng. Cho cây có KG AB/ab giao phấn với cây có KG ab/ab, tỉ lệ KH ở F1 là",
         options: [
         " 1cây cao, quả trắng: 1cây thấp, quả đỏ",
         " 3 cây cao, quả đỏ: 1cây thấp, quả trắng",
@@ -2513,11 +2513,11 @@ const sinhk1BT = [
         answer: 3
         },
         {
-        q: "ở cà chua gen 00 quy định thân cao, a: thân thấp, 1: quả tròn, b: bầu dục, các gen cùng nằm trên một cặp NST tương đồng, liên kết chặt chẽ trong quá trình di truyền phép lai nào làm xuất hiện tỉ lệ phân tính: 3:1",
+        q: "ở cà chua gen A quy định thân cao, a: thân thấp, B: quả tròn, b: bầu dục, các gen cùng nằm trên một cặp NST tương đồng, liên kết chặt chẽ trong quá trình di truyền phép lai nào làm xuất hiện tỉ lệ phân tính: 3:1",
         options: [
         "<span class='frac'><sup>AB</sup><span>&frasl;</span><sub>aB</sub></span> x <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>aB</sub></span>",
-        "<span cla='frac'><sup>Ab</sup><span>&frasl;</span><sub>ab</sub></span> x <span class='frac'><sup>Ab</sup><span>&frasl;</span><sub>ab</sub></span>",
-        "<sp class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></sp> x <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></span>",
+        "<span class='frac'><sup>Ab</sup><span>&frasl;</span><sub>ab</sub></span> x <span class='frac'><sup>Ab</sup><span>&frasl;</span><sub>ab</sub></span>",
+        "<span class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></span> x <span class='frac'><sup>AB</sup><span>&frasl;</span><sub>ab</sub></span>",
         "cả đều đúng"],
         answer: 3
         },
@@ -2729,7 +2729,7 @@ const sinhk1BT = [
         answer: 1
         },
         {
-        q: "Ghép các dữ kiện sau thành câu có nghĩa đúng:<br>&nbsp;&nbsp;1. Gen&nbsp;&nbsp;&nbsp;&nbsp;a. Trạng thái của một gen<br>&nbsp;&nbsp;3. Alen&nbsp;&nbsp;&nbsp;&nbsp;b. Vị trí của gen trên NST<br>&nbsp;&nbsp;2. Lôcut gen&nbsp;&nbsp;&nbsp;&nbsp;c. Đoạn ADN qui định một tính trạng",
+        q: "Ghép các dữ kiện sau thành câu có nghĩa đúng:<br>&nbsp;&nbsp;1. Gen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Trạng thái của một gen<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Alen&nbsp;&nbsp;&nbsp;&nbsp;b. Vị trí của gen trên NST<br>&nbsp;&nbsp;2. Lôcut gen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Đoạn ADN qui định một tính trạng",
         options: [
         " 1a, 2b, 3c",
         " 1c, 2b, 3a",
@@ -2758,10 +2758,10 @@ const sinhk1BT = [
         {
         q: "Ở phép lai AaBbDd x AaBbDd, tỉ lệ cơ thể AaBbDd:",
         options: [
-        " 2/8",
-        " 1/8",
-        " 9/64",
-        " 27/64"],
+        "<span class='frac'><sup>2</sup><span>&frasl;</span><sub>8</sub></span>",
+        "<span class='frac'><sup>1</sup><span>&frasl;</span><sub>8</sub></span>",
+        "<span class='frac'><sup>9</sup><span>&frasl;</span><sub>64</sub></span>",
+        "<span class='frac'><sup>27</sup><span>&frasl;</span><sub>64</sub></span>"],
         answer: 1
         },
         {
@@ -2837,7 +2837,7 @@ const sinhk1BT = [
         answer: 1
         },
         {
-        q: "Ở đậu Hà Lan, nếu kí hiệu 00 là alen qui định hạt vàng, a alen qui định hạt xanh, 1 là alen qui định hạt trơn, b là alen qui định hạt nhăn. Xác định phép lai nào sau đây tạo ra nhiều kiểu hình nhất:",
+        q: "Ở đậu Hà Lan, nếu kí hiệu A là alen qui định hạt vàng, a alen qui định hạt xanh, B là alen qui định hạt trơn, b là alen qui định hạt nhăn. Xác định phép lai nào sau đây tạo ra nhiều kiểu hình nhất:",
         options: [
         " AaBb x AaBB",
         " AaBB x AABb",
@@ -2855,7 +2855,7 @@ const sinhk1BT = [
         answer: 3
         },
         {
-        q: "Thế hệ con có tỉ lệ KH lặn chiếm 1/4 là của phép lai:",
+        q: "Thế hệ con có tỉ lệ KH lặn chiếm <span class='frac'><sup>1</sup><span>&frasl;</span><sub>4</sub></span là của phép lai:",
         options: [
         " Aabb x aabb",
         " AaBb x aabb",
@@ -2902,10 +2902,10 @@ const sinhk1BT = [
         {
         q: "Phép lai giữa 2 cá thể có KG AaBbDd x aaBBDd (mỗi gen quy định một TT, các gen trội là trội hoàn toàn) sẽ cho ra. Tỉ lệ phân li ở F1 của KG AaBBDd là",
         options: [
-        " 3/8",
-        " 1/8",
-        " 7/8",
-        " 9/8"],
+        "<span class='frac'><sup>3</sup><span>&frasl;</span><sub>8</sub></span>",
+        "<span class='frac'><sup>1</sup><span>&frasl;</span><sub>8</sub></span>",
+        "<span class='frac'><sup>7</sup><span>&frasl;</span><sub>8</sub></span>",
+        "<span class='frac'><sup>9</sup><span>&frasl;</span><sub>8</sub></span>"],
         answer: 1
         },
         {
@@ -2918,7 +2918,7 @@ const sinhk1BT = [
         answer: 2
         },
         {
-        q: "Ở cà chua, màu quả đỏ là trội hoàn toàn so với quả vàng, cho biết tính trạng màu quả do một gen quy định. Xác định phép lai nào sau đây sẽ có tỉ lệ kiểu hình ở F1 giốngnhau:",
+        q: "Ở cà chua, màu quả đỏ là trội hoàn toàn so với quả vàng, cho biết tính trạng màu quả do một gen quy định. Xác định phép lai nào sau đây sẽ có tỉ lệ kiểu hình ở F1 giống nhau:",
         options: [
         " ♀ Aa x ♂ aa và ♀ aa x ♂ Aa",
         " ♀ Aa x ♂ AA và ♀ Aa x ♂ aa",
@@ -2972,7 +2972,7 @@ const sinhk1BT = [
         answer: 3
         },
         {
-        q: "Trong phép lai của Menđen, khi cho cây hoa đỏ lai phân tích, thế hệ sau thu được ½ hoa đỏ : ½ hoa trắng. KG của cây hoa đỏ là:",
+        q: "Trong phép lai của Menđen, khi cho cây hoa đỏ lai phân tích, thế hệ sau thu được <span class='frac'><sup>1</sup><span>&frasl;</span><sub>2</sub></span hoa đỏ : <span class='frac'><sup>1</sup><span>&frasl;</span><sub>2</sub></span hoa trắng. KG của cây hoa đỏ là:",
         options: [
         " Aa",
         " AA",
@@ -3134,7 +3134,7 @@ const sinhk1BT = [
         answer: 1
         },
         {
-        q: "Thế hệ con có tỉ lệ kiểu hình lặn chiếm ¼ của phép lai:",
+        q: "Thế hệ con có tỉ lệ kiểu hình lặn chiếm <span class='frac'><sup>1</sup><span>&frasl;</span><sub>4</sub></span của phép lai:",
         options: [
         " Aabb x aabb",
         " AaBb x aabb",
@@ -3145,10 +3145,10 @@ const sinhk1BT = [
         {
         q: "Cho biết các gen phân li độc lập, tác động riêng rẽ, các alen trội là trội hoàn toàn và không xảy ra đột biến. Theo lí thuyết, trong tổng số cá thể thu được từ phép lai AaBbddEe × AabbDdEe, số cá thể có kiểu gen AAbbDdee chiếm tỉ lệ",
         options: [
-        " 1/32",
-        " 1/16",
-        " 1/8",
-        " 1/64"],
+        "<span class='frac'><sup>1</sup><span>&frasl;</span><sub>32</sub></span>",
+        "<span class='frac'><sup>1</sup><span>&frasl;</span><sub>16</sub></span>",
+        "<span class='frac'><sup>1</sup><span>&frasl;</span><sub>8</sub></span>",
+        "<span class='frac'><sup>1</sup><span>&frasl;</span><sub>64</sub></span>"],
         answer: 3
         },
         {
@@ -3241,4 +3241,4 @@ const sinhk1BT = [
         " Ab"],
         answer: 3
         },
-];
+];  

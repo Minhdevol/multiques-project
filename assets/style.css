@@ -209,7 +209,7 @@ section {
 section .text {
     position: relative;
     transform: skewY(345deg) translateY(-200px);
-    animation: animateColor 5s linear infinite;
+    animation: animateColor 30s linear infinite;
   }
 section .text h2 {
     position: relative;
@@ -1114,7 +1114,7 @@ section text h2 > span.icon-style:nth-child(even){
 
 .ui-option {
     position: absolute;
-    bottom: 20px;
+    top: 20px;
     left: 20px;
     width: auto;
     height: auto;
@@ -1241,7 +1241,7 @@ section text h2 > span.icon-style:nth-child(even){
 
 .reload-btn{
     position: absolute;
-    bottom: 27px;
+    top: 27px;
     left: 120px;
     width: 40px;
     height: 40px;
@@ -1309,7 +1309,7 @@ span.frac > span {display: none;}
     section .text {
         position: relative;
         transform: skewY(345deg) translateY(-200px);
-        animation: animateColor 4s linear infinite;
+        animation: animateColor 40s linear infinite;
     }
     section .text h2 {
         position: relative;
@@ -1441,7 +1441,7 @@ span.frac > span {display: none;}
         display: none;
     }
     .voder .custom-c{
-        position: relative;
+        position: absolute;
         width: min(100%  - 12rem);
         height: auto;
         margin: 20px 2,5px 0px 2,5px;
@@ -1464,7 +1464,7 @@ span.frac > span {display: none;}
     /*Hộp thông số*/
     .voder .status-box {
         position: fixed;
-        top: 0.1px;
+        top: 0px;
         width: 80%;
         height: auto;
         padding:  2px 5px 2px 5px;
@@ -1492,7 +1492,7 @@ span.frac > span {display: none;}
         position: relative;
         text-align: center;
         right: 0;
-        padding: 0.2px 4px 0.2px 4px;
+        padding: 0px 4px 0px 4px;
         border-radius: 0.5px;
         border: 0.4px solid var(--value-btn-1);
         font-size: 0.55rem;
@@ -1500,11 +1500,10 @@ span.frac > span {display: none;}
     }
     /*css cho mục đầu bắt đầu*/
     .voder .home-box{
-        position: relative;
+        position: absolute;
         top: 60px;
         width: 95%;
         height: auto;
-        line-height: 50px;
         padding-top: 20px;
         margin-top: 0 auto;
         justify-content: space-evenly;
@@ -1517,8 +1516,8 @@ span.frac > span {display: none;}
         background: var(--bg-value-color-3);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-weight: 300;
-        font-size: 1.3rem;
+        font-weight: 500;
+        font-size: 1.2rem;
         letter-spacing: 1px;
         margin-bottom: 8px;
     }
@@ -1619,7 +1618,7 @@ span.frac > span {display: none;}
         text-align: left;
         margin: 0 auto;
         max-width: 94%;
-        font-size: 1.3rem;
+        font-size: 0.9rem;
         /* color: var(--value-text-7); */
         background: var(--bg-value-color-3);
         -webkit-background-clip: text;
@@ -1629,7 +1628,7 @@ span.frac > span {display: none;}
     .voder .quiz-box .option-que{
         position: relative;
         padding: 0px 11px 0px 11px;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         color: var(--value-text-7);
         list-style-type: upper-alpha;
     }
@@ -1711,7 +1710,7 @@ span.frac > span {display: none;}
         background-size: cover;
         margin: 0 auto;
         padding: 0px 10px 0px 0px;
-        font-size: 1.3rem;
+        font-size: 0.9rem;
     }
     .voder .quiz-box .que-text .quespic{
       width: 20%;
@@ -1720,7 +1719,7 @@ span.frac > span {display: none;}
     }
     .voder .quiz-box .nex-que-btn{
         position: relative;
-        margin-left: 1.5rem;
+        margin-left: 1.2rem;
     }
     
     /*Hộp hiển thị file chưa tạo hoặc lỗi*/
@@ -1739,7 +1738,7 @@ span.frac > span {display: none;}
     }
     .voder .none-file-box h3 {
         position: relative;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         font-weight: 600;
         margin: 0 auto;
         font-style: italic;
@@ -1748,7 +1747,7 @@ span.frac > span {display: none;}
         -webkit-text-fill-color: transparent;
     }
     .voder .none-file-box p{
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         color: var(--value-text-8);
     }
     .voder .none-file-box .none-pic-box{
@@ -1771,7 +1770,7 @@ span.frac > span {display: none;}
         margin: 0 auto;
         bottom: -70px;
         padding: 0px 0px 15px 0px;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         color: var(--value-text-9);
         display: flex;
         flex-wrap: wrap;
@@ -1783,7 +1782,7 @@ span.frac > span {display: none;}
         width: min(100% - 3rem);
         margin: 0 auto;
         position: relative;
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin: 0px 7px 4px 7px;
         border-right: none;
         border-bottom: 0.6px solid #27409c;
@@ -1797,7 +1796,7 @@ span.frac > span {display: none;}
         top: 0px;
         padding: 0px 10px 0px 0px;
         line-height:  30px;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         margin-right: 5px;
     }
     .voder .total-box .re-btn-box{
@@ -1822,7 +1821,7 @@ span.frac > span {display: none;}
     .footer-name{
         position: fixed;
         width: 100%;
-        bottom: 0.1px;
+        bottom: 0px;
         font-size: 0.6rem;
         color: var(--value-text-1);
         padding: 1px 0px 0px 2px;
