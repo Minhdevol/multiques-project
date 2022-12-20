@@ -100,7 +100,7 @@
             <div class="background-focus-box hide">focus mode</div>
         </div>
     </div> -->
-    <div class="ui-option">
+    <div class="ui-option shdow-bem">
         <div class="box-ui-contain">
             <div class="toggle_switch">
                 <input type="checkbox" class="switch">
@@ -112,15 +112,16 @@
             </div>
         </div>
     </div>
-    <div class="reload-btn" onclick="window.location.reload();">
+    <div class="reload-btn shdow-bem" onclick="window.location.reload();">
         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 256.676 256.676" style="enable-background:new 0 0 256.676 256.676;" xml:space="preserve">
         <path d="M240.455,170.828l-40-29V70.441H89.781v30.439L19.221,50.441L89.781,0v30.441h150.674V170.828z M237.455,206.236
             l-70.559-50.441v30.441H56.221V114.85l-40-29v140.387h150.676v30.44L237.455,206.236z" fill="#ed9f29"/>
         </svg>
     </div>
+    <div class="bg-mode"></div>
     <div class="background-focusing hide"></div>
-    <section class="background-parallax">
+    <!--<section class="background-parallax">
         <div class="text">
             <h2 style="--i:0.5">
                 <span>Multiques.Inc</span>
@@ -375,14 +376,14 @@
                 <span>Chemistry</span>
             </h2>
         </div>
-    </section>
+    </section>-->
     <div class="voder">  <!--khung chứa các hộp câu hỏi-->
-        <div class="status-box">
+        <div class="status-box shdow-bem">
             <div class="text-showing" id="change-stylish">trách nghiệm hiện đang chọn </div>
             <div class="chosing-que-box"></div>
             <div class="time-line" title="thời gian hiện tại"></div>
         </div>
-        <div class="home-box custom-b"> <!--hộp bắt đầu-->
+        <div class="home-box custom-b shdow-bem"> <!--hộp bắt đầu-->
             <h1 title="chọn các nội dung chứa trách nghiệm hiện có trong khung dưới và nhấn 'bắt đầu' để làm câu hỏi.">TRÁCH NGHIỆM HIỆN CÓ:</h1>   
             <div class="sco-ques-box">
                 <div class="chosing-ques-box">
@@ -443,7 +444,7 @@
             </div>
             <button type="button" class="btn style-btn" onclick="stQuiz()" title="nhấp để khởi tạo câu hỏi từ nội dung đã chọn">bắt đầu</button>
         </div>
-        <div class="quiz-box custom-b hide"> <!--hộp câu hỏi-->
+        <div class="quiz-box custom-b hide shdow-bem"> <!--hộp câu hỏi-->
             <div class="que-numb">
             </div>
             <div class="que-text">
@@ -455,7 +456,7 @@
                 <button type="button" class="btn style-btn" onclick="BackQues()">quay&nbsp;lại</button>
             </div>
         </div>
-        <div class="none-file-box custom-c hide">
+        <div class="none-file-box custom-c hide shdow-bem">
                 <h3>Ops, file này chưa được khởi tạo hoặc lưu trữ bị lỗi !!!!&nbsp;</h3>
                 <p class="subtitle-text"></p>
                 <div class="none-pic-box">
@@ -463,7 +464,7 @@
                 </div>
                 <button type="button" class="btn style-btn" onclick="CBackfrist()">quay lại trang khởi đầu</button>
         </div>
-        <div class="total-box custom-a hide"> <!--hộp kết quả-->
+        <div class="total-box custom-a hide shdow-bem"> <!--hộp kết quả-->
             <h3>Câu đúng &nbsp; <span class="coran"></span></h3>
             <h3>Câu sai &nbsp; <span class="wroan"></span></h3>
             <h3>KẾT QUẢ &nbsp; <span class="final-result"></span></h3>

@@ -19,6 +19,7 @@
 }
 /*css body*/
 body {
+    --bg-img: url("../assets/dark.png");
     /*Dark element*/
     /*Transition */
     --change-value: 1s;
@@ -101,6 +102,8 @@ body {
     --value-shadow-text-2: #e41414;
     --value-shadow-text-3: #2f1aea;
     --value-shadow-text-4: #fcfcfc;
+    /*Màu khối đổ bóng*/
+    --shdow-value: rgba(12, 10, 10, 0.7);
     transition: var(--change-value);
     /*/////////////////////////////*/
     
@@ -108,7 +111,26 @@ body {
     font-size: 1.5rem;
     font-family: 'Kanit', monospace;
 }
+body .bg-mode {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: var(--bg-img);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* z-index: -1; */
+    transition: var(--change-value);
+}
+body.light .bg-mode{
+    transition: var(--change-value);
+}
 body.light {
+    /*background image mode*/
+    --bg-img: url("../assets/light.png");
+    --change-value: 1s;
     /*Light element*/
     /*Deg*/
     --deg-value-1: 20deg;
@@ -190,7 +212,10 @@ body.light {
     --value-shadow-text-2: #891c1c;
     --value-shadow-text-3: #271c8d;
     --value-shadow-text-4: #fcfcfc;
+    /*Màu khối đổ bóng*/
+    --shdow-value: rgba(99, 99, 99, 0.571);
     transition: var(--change-value);
+    
 }
 * {
     box-sizing: border-box;
@@ -199,7 +224,7 @@ body.light {
     outline: none;
 }
 /*Background parallax efect*/
-section {
+/* section {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -241,7 +266,12 @@ section text h2 > span.icon-style:nth-child(even){
     100% {
       filter: hue-rotate(360deg);
     }
-  }
+  } */
+
+.shdow-bem {
+    box-shadow: -5px -5px 6px var(--shdow-value),
+                5px 5px 5px var(--shdow-value);
+}
 
 /*////////////////////////////////////////////////////////////////*/
  /*nút bắt đầu làm trách nghiệm*/

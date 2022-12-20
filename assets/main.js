@@ -180,13 +180,13 @@ function RanTe(min, max) {
     return Ranoe
 }
 //Hiệu ứng background parallax
-const position = document.querySelector(".background-parallax");
+// const position = document.querySelector(".background-parallax");
 
-position.addEventListener("mousemove", handleMouseMove);
+// position.addEventListener("mousemove", handleMouseMove);
 
-function handleMouseMove(e) {
-  position.style.setProperty("--x", e.clientX + "px");
-}
+// function handleMouseMove(e) {
+//   position.style.setProperty("--x", e.clientX + "px");
+// }
 
 //hệ thống lựa chọn nội dung chủ đề cho câu hỏi
 function func() {
